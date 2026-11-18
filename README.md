@@ -9,12 +9,12 @@ decision is made by the **INT8-quantized distilled Transformer**.
 ## Setup & run
 
 ```bash
-git clone https://github.com/<YOUR_GITHUB>/support-router.git
+git clone https://github.com/dilrubaw/support-router.git
 cd support-router
 pip install -r requirements.txt
 python app.py            # downloads trained weights from Hugging Face Hub on first run
 ```
-Model weights: https://huggingface.co/KULLANICI_ADIN/support-router-models (not stored in this repo).
+Model weights: https://huggingface.co/dilrubaw/support-router-models (not stored in this repo).
 On Google Colab use `python app.py --share` to get a public link.
 
 ### Re-train everything (optional, GPU recommended, ~30–45 min on a Colab T4)
