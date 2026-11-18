@@ -1,0 +1,9 @@
+torch>=2.3
+transformers>=4.40
+datasets>=2.19
+scikit-learn>=1.3
+numpy
+pandas
+joblib
+gradio>=4.0
+huggingface_hub>=0.23

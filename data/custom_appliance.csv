@@ -1,0 +1,121 @@
+text,intent,lang
+"bulaşık makinem su boşaltmıyor, model DW-6534",appliance_fault,tr
+çamaşır makinesi sıkma yapmıyor ve çok ses çıkarıyor,appliance_fault,tr
+buzdolabım soğutmuyor içindeki yiyecekler bozuldu,appliance_fault,tr
+fırınım ısınmıyor ne yapmalıyım,appliance_fault,tr
+çamaşır makinesi E21 hata kodu veriyor,appliance_fault,tr
+bulaşık makinesi bulaşıkları temiz yıkamıyor,appliance_fault,tr
+buzdolabının altından su akıyor,appliance_fault,tr
+klimam soğuk hava üflemiyor,appliance_fault,tr
+kurutma makinesi çamaşırları kurutmuyor,appliance_fault,tr
+çamaşır makinem açılmıyor hiç ışık yanmıyor,appliance_fault,tr
+mikrodalga fırın çalışıyor ama yemeği ısıtmıyor,appliance_fault,tr
+bulaşık makinem program ortasında duruyor,appliance_fault,tr
+buzdolabından garip bir uğultu sesi geliyor,appliance_fault,tr
+ocak düğmesi çevrilince ateş yanmıyor,appliance_fault,tr
+cihazım arızalandı teknik servis istiyorum,appliance_fault,tr
+my dishwasher is not draining water,appliance_fault,en
+the washing machine won't spin anymore,appliance_fault,en
+my fridge stopped cooling yesterday,appliance_fault,en
+the oven does not heat up at all,appliance_fault,en
+washing machine shows error code E21,appliance_fault,en
+dishwasher leaves dishes dirty after the cycle,appliance_fault,en
+water is leaking under my refrigerator,appliance_fault,en
+the air conditioner is blowing warm air,appliance_fault,en
+my dryer runs but clothes stay wet,appliance_fault,en
+"the washer won't turn on, no lights at all",appliance_fault,en
+microwave runs but does not heat food,appliance_fault,en
+the dishwasher stops in the middle of the program,appliance_fault,en
+my freezer is making a loud buzzing noise,appliance_fault,en
+the stove burner will not ignite,appliance_fault,en
+my appliance broke down and I need a technician,appliance_fault,en
+yeni aldığım bulaşık makinesinin kurulumu ne zaman yapılacak,appliance_installation,tr
+çamaşır makinemi kim monte edecek,appliance_installation,tr
+buzdolabı teslim edildi kurulum için randevu almak istiyorum,appliance_installation,tr
+ankastre fırın montajı için teknisyen gelecek mi,appliance_installation,tr
+klima montajı için ne zaman gelirsiniz,appliance_installation,tr
+kurulum randevumu değiştirmek istiyorum,appliance_installation,tr
+kurulum ücretli mi yoksa ücretsiz mi,appliance_installation,tr
+bulaşık makinesini kendim bağlayabilir miyim yoksa servis mi gelmeli,appliance_installation,tr
+taşındım cihazlarımın yeniden kurulmasını istiyorum,appliance_installation,tr
+kurulum ekibi bugün gelmedi,appliance_installation,tr
+ocak ve davlumbaz montajı için randevu,appliance_installation,tr
+kombi kurulumu için başvuru yapmak istiyorum,appliance_installation,tr
+kurulum için ne kadar beklemem gerekir,appliance_installation,tr
+çamaşır makinesinin nakliye vidalarını kim sökecek,appliance_installation,tr
+yeni ürünümün ilk çalıştırmasını yapacak teknisyen istiyorum,appliance_installation,tr
+when will my new dishwasher be installed,appliance_installation,en
+who is going to install my washing machine,appliance_installation,en
+"my fridge was delivered, I want to book an installation appointment",appliance_installation,en
+will a technician come to fit the built-in oven,appliance_installation,en
+when can you install the air conditioner,appliance_installation,en
+I want to reschedule my installation appointment,appliance_installation,en
+is installation free or do I have to pay,appliance_installation,en
+can I connect the dishwasher myself or do I need a technician,appliance_installation,en
+I moved house and need my appliances reinstalled,appliance_installation,en
+the installation team didn't show up today,appliance_installation,en
+book installation for my cooktop and hood,appliance_installation,en
+I want to request a boiler installation,appliance_installation,en
+how long do I have to wait for installation,appliance_installation,en
+who removes the transport bolts from the washing machine,appliance_installation,en
+I need someone to set up my new appliance for first use,appliance_installation,en
+çamaşır makinemin garantisi devam ediyor mu,appliance_warranty,tr
+garanti süresi kaç yıl,appliance_warranty,tr
+garanti belgemi kaybettim ne yapabilirim,appliance_warranty,tr
+ürünü iade etmek istiyorum,appliance_warranty,tr
+garanti kapsamında değişim yapılır mı,appliance_warranty,tr
+garantimi uzatmak istiyorum,appliance_warranty,tr
+buzdolabı garanti dışı mı kaldı,appliance_warranty,tr
+aynı arıza üç kez tekrarladı ürün değişimi istiyorum,appliance_warranty,tr
+fatura olmadan garantiden yararlanabilir miyim,appliance_warranty,tr
+iade sürecim ne durumda,appliance_warranty,tr
+ek garanti paketi fiyatı nedir,appliance_warranty,tr
+kusurlu ürün için para iadesi talep ediyorum,appliance_warranty,tr
+garanti kaydımı nasıl kontrol ederim,appliance_warranty,tr
+cihazın seri numarası ile garanti sorgulama,appliance_warranty,tr
+14 gün içinde iade hakkım var mı,appliance_warranty,tr
+is my washing machine still under warranty,appliance_warranty,en
+how many years is the warranty,appliance_warranty,en
+I lost my warranty certificate what should I do,appliance_warranty,en
+I want to return this product,appliance_warranty,en
+can I get a replacement under warranty,appliance_warranty,en
+I'd like to extend my warranty,appliance_warranty,en
+is my fridge out of warranty now,appliance_warranty,en
+"the same fault happened three times, I want a new unit",appliance_warranty,en
+can I use the warranty without an invoice,appliance_warranty,en
+what is the status of my return,appliance_warranty,en
+how much does the extended warranty cost,appliance_warranty,en
+I want a refund for a defective appliance,appliance_warranty,en
+how do I check my warranty registration,appliance_warranty,en
+warranty check with the serial number,appliance_warranty,en
+do I have a 14 day right to return,appliance_warranty,en
+bulaşık makinesi için yedek sepet sipariş etmek istiyorum,appliance_spare_parts,tr
+buzdolabı rafı kırıldı yenisini nereden alabilirim,appliance_spare_parts,tr
+fırın için yeni cam kapak lazım,appliance_spare_parts,tr
+çamaşır makinesi kapak contası satıyor musunuz,appliance_spare_parts,tr
+süpürge filtresi siparişi vermek istiyorum,appliance_spare_parts,tr
+davlumbaz yağ filtresi stokta var mı,appliance_spare_parts,tr
+klima kumandamı kaybettim yenisini alabilir miyim,appliance_spare_parts,tr
+bulaşık makinesi pompası fiyatı nedir,appliance_spare_parts,tr
+buzdolabı kapı lastiği değişimi için parça istiyorum,appliance_spare_parts,tr
+ocak düğmesi kırıldı yedek parça bulunur mu,appliance_spare_parts,tr
+mikrodalga tabağı kırıldı yenisini almak istiyorum,appliance_spare_parts,tr
+çamaşır makinesi deterjan çekmecesi siparişi,appliance_spare_parts,tr
+orijinal yedek parça siparişim ne zaman gelir,appliance_spare_parts,tr
+fırın lambası yanmıyor ampulünü nereden alırım,appliance_spare_parts,tr
+kurutma makinesi tüy filtresi satın almak istiyorum,appliance_spare_parts,tr
+I want to order a spare basket for my dishwasher,appliance_spare_parts,en
+"a fridge shelf broke, where can I buy a new one",appliance_spare_parts,en
+I need a new glass door for the oven,appliance_spare_parts,en
+do you sell door seals for washing machines,appliance_spare_parts,en
+I want to order a vacuum cleaner filter,appliance_spare_parts,en
+is the cooker hood grease filter in stock,appliance_spare_parts,en
+"I lost my air conditioner remote, can I buy another",appliance_spare_parts,en
+how much is a dishwasher drain pump,appliance_spare_parts,en
+I need a replacement fridge door gasket,appliance_spare_parts,en
+"the stove knob broke, do you have spare parts",appliance_spare_parts,en
+"the microwave plate broke, I want to buy a new one",appliance_spare_parts,en
+order a detergent drawer for the washing machine,appliance_spare_parts,en
+when will my original spare parts order arrive,appliance_spare_parts,en
+"the oven light is out, where can I buy the bulb",appliance_spare_parts,en
+I want to buy a lint filter for my dryer,appliance_spare_parts,en
