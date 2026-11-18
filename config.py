@@ -1,4 +1,3 @@
-"""Proje ayarları. Tüm scriptler buradan okur."""
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
