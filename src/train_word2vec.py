@@ -1,6 +1,3 @@
-"""Kendi word2vec'imizi eğitim mesajları üzerinde eğit (Alan B).
-Çalıştır: python -m src.train_word2vec
-"""
 import sys
 from collections import Counter
 from pathlib import Path
@@ -10,9 +7,9 @@ import torch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import config  # noqa: E402
-from src.common import load_split  # noqa: E402
-from src.ffnn_model import SkipGramNS  # noqa: E402
-from src.preprocess import tokenize  # noqa: E402
+from src.common import load_split  
+from src.ffnn_model import SkipGramNS  
+from src.preprocess import tokenize  
 
 DIM, WINDOW, NEG, EPOCHS, BATCH, LR, MIN_COUNT = 100, 3, 5, 10, 1024, 0.003, 2
 
@@ -58,7 +55,6 @@ def main():
     vectors = model.in_emb.weight.detach().cpu().numpy()
     torch.save({"vocab": vocab, "vectors": vectors}, config.ARTIFACTS / "word2vec.pt")
 
-    # Kosinüs benzerliği ile en yakın komşular (sunumda gösterebilirsin)
     norm = vectors / (np.linalg.norm(vectors, axis=1, keepdims=True) + 1e-9)
     lines = []
     for w in ["balance", "flight", "dishwasher", "warranty", "bulaşık", "garanti"]:
