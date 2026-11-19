@@ -1,4 +1,3 @@
-"""Ortak yardımcılar: veri yükleme, eşik (threshold) uygulama."""
 import json
 
 import numpy as np
