@@ -1,6 +1,3 @@
-"""Model 3 – Transformer (Alan C): çok dilli BERT'i niyet sınıflandırma için fine-tune et.
-Çalıştır: python -m src.train_teacher   (GPU önerilir)
-"""
 import sys
 from pathlib import Path
 
@@ -8,9 +5,9 @@ import torch
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-import config  # noqa: E402
-from src.common import load_labels, load_split  # noqa: E402
-from src.hf_utils import train_classifier  # noqa: E402
+import config  
+from src.common import load_labels, load_split  
+from src.hf_utils import train_classifier 
 
 
 def main():
