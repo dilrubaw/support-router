@@ -1,7 +1,3 @@
-"""Alan D (2/2): Öğrenci modeli dinamik INT8 kuantizasyon (PyTorch, CPU).
-Tüm nn.Linear katmanlarının ağırlıkları FP32 -> INT8.
-Çalıştır: python -m src.quantize
-"""
 import os
 import sys
 from pathlib import Path
