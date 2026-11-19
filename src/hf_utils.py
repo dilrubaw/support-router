@@ -1,4 +1,3 @@
-"""Transformer eğitimi / tahmini için ortak kod (Alan C)."""
 import math
 
 import numpy as np
@@ -31,8 +30,6 @@ def predict_proba(model, tokenizer, texts, device, batch_size=64):
 
 def train_classifier(model, tokenizer, texts, labels, val_texts, val_labels, out_dir,
                      epochs, lr, teacher_logits=None):
-    """Fine-tuning döngüsü. teacher_logits verilirse knowledge distillation kaybı eklenir:
-    loss = a * CE(öğrenci, etiket) + (1-a) * T^2 * KL(öğretmen_T || öğrenci_T)"""
     device = get_device()
     model.to(device)
     texts, labels = list(texts), np.asarray(labels)
