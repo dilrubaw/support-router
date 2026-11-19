@@ -1,4 +1,3 @@
-"""word2vec (skip-gram + negative sampling) ve ileri beslemeli ağ (FFNN) tanımları."""
 import numpy as np
 import torch
 import torch.nn as nn
@@ -8,7 +7,6 @@ from src.preprocess import tokenize
 
 
 class SkipGramNS(nn.Module):
-    """word2vec skip-gram, negative sampling (Mikolov et al., 2013)."""
 
     def __init__(self, vocab_size, dim):
         super().__init__()
@@ -18,16 +16,15 @@ class SkipGramNS(nn.Module):
         nn.init.zeros_(self.out_emb.weight)
 
     def forward(self, center, context, negatives):
-        v = self.in_emb(center)                      # (B, D)
-        u = self.out_emb(context)                    # (B, D)
-        n = self.out_emb(negatives)                  # (B, K, D)
+        v = self.in_emb(center)                     
+        u = self.out_emb(context)                    
+        n = self.out_emb(negatives)                  
         pos = F.logsigmoid((v * u).sum(-1))
         neg = F.logsigmoid(-torch.bmm(n, v.unsqueeze(-1)).squeeze(-1)).sum(-1)
         return -(pos + neg).mean()
 
 
 class FFNN(nn.Module):
-    """Ortalama word2vec vektörü -> gizli katman (ReLU) -> dropout -> softmax."""
 
     def __init__(self, in_dim, hidden, n_labels, dropout=0.3):
         super().__init__()
