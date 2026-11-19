@@ -1,10 +1,3 @@
-"""R3 + R4: 5 modeli AYNI held-out test setinde değerlendir, sonuç tablosunu üret.
-- Güven eşiği her model için doğrulama (val) setinde seçilir (test seti hiç kullanılmaz).
-- Gecikme: CPU, batch=1, 100 test mesajı üzerinden ortalama (öncesinde 10 ısınma).
-Çıktı: results/results_table.md, results/results_table.csv, results/hardware.txt,
-       results/errors_student_int8.csv, artifacts/thresholds.json
-Çalıştır: python -m src.evaluate
-"""
 import json
 import platform
 import sys
@@ -17,8 +10,8 @@ import torch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import config  # noqa: E402
-from src.common import apply_threshold, load_labels, load_split, tune_threshold  # noqa: E402
-from src.predictors import load_predictors  # noqa: E402
+from src.common import apply_threshold, load_labels, load_split, tune_threshold 
+from src.predictors import load_predictors 
 
 
 def cpu_name():
@@ -59,14 +52,14 @@ def main():
     for key, pred in load_predictors().items():
         print(f"\n=== {pred.name} ===")
         if gpu and hasattr(pred, "to"):
-            pred.to("cuda")                       # doğruluk ölçümü GPU'da hızlı olsun
+            pred.to("cuda")                     
         pv = pred.predict_proba(val["clean"])
         pt = pred.predict_proba(test["clean"])
         thr, _ = tune_threshold(pv, yv, oos)
         thresholds[key] = thr
         yp = apply_threshold(pt, thr, oos)
         if hasattr(pred, "to"):
-            pred.to("cpu")                        # gecikme HER ZAMAN CPU'da ölçülür
+            pred.to("cpu")                      
         lat_mean, lat_p95 = measure_latency(pred, lat_texts)
 
         row = {
