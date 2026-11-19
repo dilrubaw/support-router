@@ -1,4 +1,3 @@
-"""Eğitilmiş ağırlıkları (artifacts/) Hugging Face Hub'a yükler. Önce: huggingface-cli login"""
 from huggingface_hub import HfApi
 
 import config
