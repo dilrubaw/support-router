@@ -1,17 +1,15 @@
-"""Niyet (intent) -> ekip yönlendirme tablosu."""
+HUMAN_TEAM = "Human agent"
+SMALLTALK_TEAM = "Small-talk bot (rule-based)"
 
-HUMAN_TEAM = "İnsan Temsilci (Human agent)"
-SMALLTALK_TEAM = "Sohbet Botu (kural tabanlı)"
 
-# Kendi beyaz eşya niyetlerimiz
 CUSTOM_TEAMS = {
-    "appliance_fault": "Teknik Servis",
-    "appliance_installation": "Kurulum Ekibi",
-    "appliance_warranty": "Garanti & İade",
-    "appliance_spare_parts": "Yedek Parça",
+    "appliance_fault": "Technical Service",
+    "appliance_installation": "Installation Team",
+    "appliance_warranty": "Warranty & Returns",
+    "appliance_spare_parts": "Spare Parts",
 }
 
-# CLINC150 alanları (Larson et al., 2019) – 10 alan x 15 niyet
+
 CLINC_DOMAINS = {
     "banking": "transfer transactions balance freeze_account pay_bill bill_balance bill_due interest_rate routing min_payment order_checks pin_change report_fraud account_blocked spending_history",
     "credit_cards": "credit_score report_lost_card credit_limit rewards_balance new_card application_status card_declined international_fees apr redeem_rewards credit_limit_change damaged_card replacement_card_duration improve_credit_score expiration_date",
@@ -26,16 +24,16 @@ CLINC_DOMAINS = {
 }
 
 DOMAIN_TEAMS = {
-    "banking": "Ödeme & Fatura",
-    "credit_cards": "Ödeme & Fatura",
-    "kitchen_dining": "Mutfak & Tarif Asistanı",
-    "home": "Akıllı Ev & Uygulama",
-    "auto_commute": "Genel Destek",
-    "travel": "Genel Destek",
-    "utility": "Akıllı Ev & Uygulama",
-    "work": "Kurumsal / İK",
+    "banking": "Billing & Payments",
+    "credit_cards": "Billing & Payments",
+    "kitchen_dining": "Kitchen & Recipe Assistant",
+    "home": "Smart Home & App",
+    "auto_commute": "General Support",
+    "travel": "General Support",
+    "utility": "Smart Home & App",
+    "work": "Corporate / HR",
     "small_talk": SMALLTALK_TEAM,
-    "meta": "Akıllı Ev & Uygulama",
+    "meta": "Smart Home & App",
 }
 
 INTENT_TO_DOMAIN = {i: d for d, s in CLINC_DOMAINS.items() for i in s.split()}
@@ -46,7 +44,7 @@ def team_for_intent(intent):
         return CUSTOM_TEAMS[intent]
     if intent == "oos":
         return HUMAN_TEAM
-    return DOMAIN_TEAMS.get(INTENT_TO_DOMAIN.get(intent, ""), "Genel Destek")
+    return DOMAIN_TEAMS.get(INTENT_TO_DOMAIN.get(intent, ""), "General Support")
 
 
 def route(intent, confidence, threshold):
