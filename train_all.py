@@ -1,7 +1,3 @@
-"""Tüm eğitim hattını sırayla çalıştırır (Colab GPU'da ~30-45 dk).
-Kullanım:  python train_all.py              (baştan sona)
-           python train_all.py --from distill   (yarıda kaldıysa bir adımdan devam)
-"""
 import argparse
 import subprocess
 import sys
