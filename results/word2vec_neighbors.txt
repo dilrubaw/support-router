@@ -1,0 +1,6 @@
+balance: reward, marriot, accumulated, td, rewards
+flight: panam, landing, plane, ticket, airlines
+dishwasher: washing, drain, water, cost, toilet
+warranty: extended, washing, repaired, hundred, inflated
+bulaşık: deterjan, çekmecesi, yeni, makinesinin, buzdolabı
+garanti: aldığım, miyim, mü, süresi, ürün

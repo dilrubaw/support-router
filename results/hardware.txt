@@ -1,0 +1,6 @@
+CPU: Intel(R) Xeon(R) CPU @ 2.00GHz
+CPU thread sayısı (torch): 1
+Platform: Linux-6.6.159+-x86_64-with-glibc2.39
+Python 3.13.16, torch 2.14.1+cu130
+Gecikme: CPU, batch=1, 100 çalıştırma ortalaması (10 ısınma sonrası), tokenization dahil.
+Test seti: 5540 mesaj (CLINC150 test 5500 + kendi verimiz 40), oos: 1000

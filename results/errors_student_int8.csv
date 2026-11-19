@@ -1,0 +1,751 @@
+text,clean,true,pred,confidence
+what's the word for trees in norway,what s the word for trees in norway,translate,oos,0.664
+repeat what the weather will be like,repeat what the weather will be like,transfer,weather,0.97
+who set up the numbers for it,who set up the numbers for it,timer,oos,0.955
+what is the definiton of auspicious,what is the definiton of auspicious,definition,oos,0.894
+what is the reason humans even exist,what is the reason humans even exist,meaning_of_life,oos,0.465
+is there a reason beyond biology about why humans are alive,is there a reason beyond biology about why humans are alive,meaning_of_life,oos,0.757
+what's the answer to it all,what s the answer to it all,meaning_of_life,maybe,0.699
+who do i contact about updating my insurance,who do i contact about updating my insurance,insurance_change,insurance,0.792
+how to i change the policy on my insurace,how to i change the policy on my insurace,insurance_change,oos,0.199
+i need to sign up for a new allstate plan,i need to sign up for a new allstate plan,insurance_change,oos,0.093
+what is the procedure for signing up for a new allstate plan,what is the procedure for signing up for a new allstate plan,insurance_change,oos,0.396
+how do i sign up for a new allstatedplan,how do i sign up for a new allstatedplan,insurance_change,oos,0.452
+are there any travel bulletins about haiti,are there any travel bulletins about haiti,travel_alert,fun_fact,0.554
+does the state department say anything about traveling to haiti,does the state department say anything about traveling to haiti,travel_alert,oos,0.566
+safety concerns for malaysia,safety concerns for malaysia,travel_alert,oos,0.471
+vacation request information,vacation request information,pto_request,pto_request_status,0.851
+vacation request please,vacation request please,pto_request,pto_request_status,0.827
+how can i contribute to my credit score,how can i contribute to my credit score,improve_credit_score,credit_score,0.905
+how can i up my credit score,how can i up my credit score,improve_credit_score,credit_score,0.972
+i have a revolving store card and defaulted so will my fico score be affected,i have a revolving store card and defaulted so will my fico score be affected,improve_credit_score,damaged_card,0.725
+what is some trivia about the weather,what is some trivia about the weather,fun_fact,weather,0.799
+i'd like to use you using russian,i d like to use you using russian,change_language,translate,0.513
+what day will i earn my payment from work,what day will i earn my payment from work,payday,bill_due,0.624
+what day can i expect to receive payment on,what day can i expect to receive payment on,payday,bill_due,0.935
+when will my payment be deposited,when will my payment be deposited,payday,bill_due,0.895
+can credit card companies expedite delivery of reissued credit cards,can credit card companies expedite delivery of reissued credit cards,replacement_card_duration,new_card,0.513
+can you call the help desk line for my credit card company,can you call the help desk line for my credit card company,replacement_card_duration,application_status,0.154
+how can i request a new credit card,how can i request a new credit card,replacement_card_duration,new_card,0.948
+what's the phone number for my credit card company,what s the phone number for my credit card company,replacement_card_duration,oos,0.27
+is it after noon,is it after noon,time,alarm,0.128
+is it six o clock yet,is it six o clock yet,time,calculator,0.383
+tell time for another city: dallas,tell time for another city dallas,time,distance,0.467
+what time is boarding scheduled,what time is boarding scheduled,flight_status,time,0.48
+where were you processed,where were you processed,where_are_you_from,who_made_you,0.63
+a hidden government facility,a hidden government facility,where_are_you_from,oos,0.667
+add laundry detergent to the list,add laundry detergent to the list,shopping_list_update,todo_list_update,0.724
+"i don't need eggs anymore, but i do need milk",i don t need eggs anymore but i do need milk,shopping_list_update,food_last,0.413
+i need milk on my shopping list,i need milk on my shopping list,shopping_list_update,shopping_list,0.558
+what kid of subjects do you excel in,what kid of subjects do you excel in,what_can_i_ask_you,oos,0.476
+what are you programmed to do for me,what are you programmed to do for me,what_can_i_ask_you,who_made_you,0.357
+undecided,undecided,maybe,oos,0.806
+that might be the case,that might be the case,maybe,yes,0.856
+unsure,unsure,maybe,yes,0.42
+"i'd like to make a reservation at rooth chris, can you do that",i d like to make a reservation at rooth chris can you do that,restaurant_reservation,accept_reservations,0.377
+are there any open reservations at outback tonight,are there any open reservations at outback tonight,restaurant_reservation,accept_reservations,0.977
+i want to eat at seven in the restaurant for two people,i want to eat at seven in the restaurant for two people,restaurant_reservation,how_busy,0.465
+what are my coffers at,what are my coffers at,balance,oos,0.949
+what the numerical number inside my bank accounts,what the numerical number inside my bank accounts,balance,oos,0.59
+what's my checking look like,what s my checking look like,balance,order_checks,0.461
+is there a reservation for mark at mimis,is there a reservation for mark at mimis,confirm_reservation,accept_reservations,0.437
+block my bank of america immdediately,block my bank of america immdediately,freeze_account,travel_notification,0.341
+what's the mileage to get the the taj mahal in atlantic city,what s the mileage to get the the taj mahal in atlantic city,distance,mpg,0.69
+how much time is left until we get there,how much time is left until we get there,distance,time,0.749
+how many minutes am i from texaco,how many minutes am i from texaco,distance,timer,0.506
+am i close to arriving at the post office,am i close to arriving at the post office,distance,directions,0.714
+when will i arrive at hy-vee,when will i arrive at hy vee,distance,flight_status,0.221
+do i have a ways to go or am i close to getting to penn station,do i have a ways to go or am i close to getting to penn station,distance,directions,0.83
+what do i go by,what do i go by,user_name,what_are_your_hobbies,0.342
+what's your designation,what s your designation,user_name,what_is_your_name,0.773
+you know me by what right now,you know me by what right now,user_name,what_are_your_hobbies,0.188
+what time is it in phoenix,what time is it in phoenix,timezone,time,0.978
+i dont want to listen to this song,i dont want to listen to this song,next_song,what_song,0.499
+is my visa bill over my limit this month,is my visa bill over my limit this month,transactions,credit_limit,0.953
+what have i spent things on,what have i spent things on,transactions,spending_history,0.974
+show what i have spent things on,show what i have spent things on,transactions,spending_history,0.972
+how much have i spent on my debit card this month,how much have i spent on my debit card this month,transactions,spending_history,0.617
+how much have i spent on my bank card sine i last paid my bill,how much have i spent on my bank card sine i last paid my bill,transactions,spending_history,0.513
+how much was my last target trip,how much was my last target trip,transactions,oos,0.279
+give me a list of places that serve the best wings in charlotte,give me a list of places that serve the best wings in charlotte,restaurant_suggestion,travel_suggestion,0.642
+today is the day i should pay my electric bill,today is the day i should pay my electric bill,pay_bill,bill_due,0.971
+my electric bill should be paid today,my electric bill should be paid today,pay_bill,bill_balance,0.5
+"looking at this week only, have i overspent on hoagies",looking at this week only have i overspent on hoagies,spending_history,calendar,0.203
+do i overspend when it comes to fast food,do i overspend when it comes to fast food,spending_history,food_last,0.271
+is vacation a go,is vacation a go,pto_request_status,pto_request,0.723
+when will i hear back about my days off,when will i hear back about my days off,pto_request_status,next_holiday,0.319
+am i okay to take those vacation days,am i okay to take those vacation days,pto_request_status,pto_balance,0.595
+i'm trying to raise my credit score can you tell me what it is now,i m trying to raise my credit score can you tell me what it is now,credit_score,improve_credit_score,0.969
+i need to get a new credit card application,i need to get a new credit card application,new_card,application_status,0.508
+how do i apply do get myself a visa,how do i apply do get myself a visa,new_card,international_visa,0.804
+i lost all my stuff that i had packed,i lost all my stuff that i had packed,lost_luggage,report_lost_card,0.72
+what'd you say,what d you say,repeat,greeting,0.475
+what were you just saying,what were you just saying,repeat,goodbye,0.414
+am i due for an oil change yet,am i due for an oil change yet,oil_change_when,oil_change_how,0.455
+where can i find information on oil changes for my car,where can i find information on oil changes for my car,oil_change_when,oil_change_how,0.759
+what are the manufacturers guidance on oil changes,what are the manufacturers guidance on oil changes,oil_change_when,oil_change_how,0.752
+how often should i change the oil,how often should i change the oil,oil_change_when,oil_change_how,0.678
+that checks out,that checks out,yes,order_checks,0.403
+okay,okay,yes,greeting,0.946
+roger that,roger that,yes,make_call,0.147
+i agree,i agree,yes,maybe,0.696
+please let's do it,please let s do it,yes,cancel,0.142
+can we please,can we please,yes,cancel,0.535
+10-4,10 4,yes,calculator,0.918
+ya,ya,yes,greeting,0.527
+great,great,yes,thank_you,0.347
+cross grocery shopping off the todo list,cross grocery shopping off the todo list,todo_list_update,shopping_list_update,0.841
+i don't need grocery shopping on my todo list anymore,i don t need grocery shopping on my todo list anymore,todo_list_update,shopping_list_update,0.58
+take grocery shopping off my todo list,take grocery shopping off my todo list,todo_list_update,shopping_list_update,0.708
+remove grocery shopping from todo list,remove grocery shopping from todo list,todo_list_update,shopping_list_update,0.526
+cross off grocery shopping from todo list,cross off grocery shopping from todo list,todo_list_update,shopping_list_update,0.818
+empty the contents of my to do list,empty the contents of my to do list,todo_list_update,todo_list,0.879
+remove all items from my to do list,remove all items from my to do list,todo_list_update,todo_list,0.556
+please note vacuuming on my to do list,please note vacuuming on my to do list,todo_list_update,todo_list,0.887
+you can dusting off my todo list,you can dusting off my todo list,todo_list_update,todo_list,0.52
+you take sweeping of my todo list,you take sweeping of my todo list,todo_list_update,todo_list,0.585
+you can vacuuming of my todo list,you can vacuuming of my todo list,todo_list_update,todo_list,0.494
+what were the things i want to recall,what were the things i want to recall,reminder,todo_list,0.106
+can i change your talking voice,can i change your talking voice,change_speed,whisper_mode,0.46
+that can't be true,that can t be true,no,yes,0.964
+is my meeting with frank on my calendar,is my meeting with frank on my calendar,calendar,meeting_schedule,0.382
+have i gotten around to adding the bike ride to my calendar yet,have i gotten around to adding the bike ride to my calendar yet,calendar,calendar_update,0.954
+have i added my doctor's appointment to my calendar,have i added my doctor s appointment to my calendar,calendar,calendar_update,0.927
+retrieve events on my calendar,retrieve events on my calendar,calendar,calendar_update,0.663
+on tuesday you are supposed to have a meeting,on tuesday you are supposed to have a meeting,calendar,meeting_schedule,0.488
+you have yo go to school on calendar,you have yo go to school on calendar,calendar,calendar_update,0.569
+i bought 6 shirts at $499 each what was my total expenditure for them,i bought 6 shirts at 499 each what was my total expenditure for them,calculator,transactions,0.248
+i spent 34 dollars for 12 gallons of paint what is the average price for each gallon,i spent 34 dollars for 12 gallons of paint what is the average price for each gallon,calculator,exchange_rate,0.849
+what will tomorrow be on the calendar,what will tomorrow be on the calendar,date,calendar,0.727
+can i bring perfume on the plane or what is the size limit,can i bring perfume on the plane or what is the size limit,carry_on,credit_limit,0.715
+what are the rules for traveling with toothpaste,what are the rules for traveling with toothpaste,carry_on,oos,0.916
+can i fly with my razors or are there restrictions,can i fly with my razors or are there restrictions,carry_on,oos,0.802
+i need to know how many days i toof off,i need to know how many days i toof off,pto_used,pto_balance,0.508
+how much of my pto is left,how much of my pto is left,pto_used,pto_balance,0.648
+find out the next available date and time i can go to get my oil changed please,find out the next available date and time i can go to get my oil changed please,schedule_maintenance,oil_change_when,0.884
+can you let me know the next open slot for me to get my oil changed,can you let me know the next open slot for me to get my oil changed,schedule_maintenance,oil_change_when,0.458
+find a place near me to have my tires inspected,find a place near me to have my tires inspected,schedule_maintenance,tire_pressure,0.594
+tell my bank's fraud department i'm going to mexico,tell my bank s fraud department i m going to mexico,travel_notification,report_fraud,0.969
+contact bank and let them know about my travel plans,contact bank and let them know about my travel plans,travel_notification,travel_alert,0.699
+thank a bunch,thank a bunch,thank_you,oos,0.352
+i appeciate it,i appeciate it,thank_you,maybe,0.51
+how many days milk can be preserved,how many days milk can be preserved,food_last,pto_used,0.354
+what is the expiration date for those eg,what is the expiration date for those eg,food_last,expiration_date,0.342
+what is the amount of time to keep milk refrigerated,what is the amount of time to keep milk refrigerator,food_last,cook_time,0.809
+how many minutes should i set an alarm for this bake,how many minutes should i set an alarm for this bake,cook_time,timer,0.691
+i want to be reminded to pay the electric bill,i want to be reminded to pay the electric bill,reminder_update,pay_bill,0.758
+don't forget to tell me to call my mother,don t forget to tell me to call my mother,reminder_update,make_call,0.696
+remind me to put gas in my car,remind me to put gas in my car,reminder_update,gas_type,0.31
+i don't want to forget to call mom,i don t want to forget to call mom,reminder_update,make_call,0.951
+help me to remember to pick up stan later,help me to remember to pick up stan later,reminder_update,reminder,0.68
+tell me later to call bill,tell me later to call bill,reminder_update,make_call,0.74
+someone used my chase card without my authorization,someone used my chase card without my authorization,report_lost_card,report_fraud,0.672
+my capital one visa was taken without permission,my capital one visa was taken without permission,report_lost_card,international_visa,0.431
+i need to report that someone ran off with my td bank card earlier,i need to report that someone ran off with my td bank card earlier,report_lost_card,damaged_card,0.33
+can i swap chili for sloppy joe mix in the recipe,can i swap chili for sloppy joe mix in the recipe,ingredient_substitution,recipe,0.76
+will peas work instead of carrots,will peas work instead of carrots,ingredient_substitution,recipe,0.708
+can i sub bacon for ham,can i sub bacon for ham,ingredient_substitution,recipe,0.393
+will it be ok to sub turkey for beef,will it be ok to sub turkey for beef,ingredient_substitution,recipe,0.308
+is it alright to switch applesauce for oil,is it alright to switch applesauce for oil,ingredient_substitution,oil_change_how,0.67
+i need to call my boss,i need to call my boss,make_call,who_do_you_work_for,0.388
+i need you to call the phone company for me,i need you to call the phone company for me,make_call,find_phone,0.482
+get mom on the phone,get mom on the phone,make_call,sync_device,0.52
+x needs to be called by me,x needs to be called by me,make_call,change_user_name,0.891
+i need to up by noon,i need to up by noon,alarm,make_call,0.322
+did i put grocery shopping on my todo list,did i put grocery shopping on my todo list,todo_list,shopping_list,0.554
+have i told you to add washing dishes to my todo list,have i told you to add washing dishes to my todo list,todo_list,todo_list_update,0.947
+what do i need to do to get that tax form thing from my job,what do i need to do to get that tax form thing from my job,w2,taxes,0.519
+what's the latest i can pay my cellular bill,what s the latest i can pay my cellular bill,bill_due,pay_bill,0.585
+i need to know the next billing date of my american express card,i need to know the next billing date of my american express card,bill_due,replacement_card_duration,0.489
+how much is alorie intake,how much is alorie intake,calories,oos,0.856
+do they serve good tacos at the buffet,do they serve good tacos at the buffet,restaurant_reviews,meal_suggestion,0.419
+"my favorite, beef tacos at the buffet",my favorite beef tacos at the buffet,restaurant_reviews,food_last,0.447
+they sold out of tacos at the buffet,they sold out of tacos at the buffet,restaurant_reviews,food_last,0.154
+"yum, pulled pork tacos at the buffet",yum pulled pork tacos at the buffet,restaurant_reviews,recipe,0.175
+what do people think of the new burger at mcdonalds,what do people think of the new burger at mcdonalds,restaurant_reviews,travel_suggestion,0.361
+what are people saying about chick-fil-a's chicken nuggets,what are people saying about chick fil a s chicken nuggets,restaurant_reviews,oos,0.528
+how is gramercy tavern rated,how is gramercy tavern rated,restaurant_reviews,oos,0.63
+how many stars does babbo have,how many stars does babbo have,restaurant_reviews,oos,0.866
+do people say per se is any good or not,do people say per se is any good or not,restaurant_reviews,maybe,0.584
+what do food critics say about gramercy tavern,what do food critics say about gramercy tavern,restaurant_reviews,oos,0.75
+how many stars does brasserie les halles have,how many stars does brasserie les halles have,restaurant_reviews,oos,0.965
+what gas goes in the vehicle,what gas goes in the vehicle,gas_type,gas,0.782
+what raiting of gas is called for,what raiting of gas is called for,gas_type,gas,0.478
+is electricity the same in france,is electricity the same in france,plug_type,oos,0.269
+does z used the same plus as we do in the united states,does z used the same plus as we do in the united states,plug_type,oos,0.302
+how many miles are my tires rated for,how many miles are my tires rated for,tire_change,tire_pressure,0.533
+is $30 usd more or less in canada,is 30 usd more or less in canada,exchange_rate,travel_suggestion,0.369
+how long do i have to wait to get a day off,how long do i have to wait to get a day off,next_holiday,how_busy,0.959
+decrease your decibel level,decrease your decibel level,change_volume,cancel,0.204
+be more quiet,be more quiet,change_volume,cancel,0.807
+speak up,speak up,change_volume,goodbye,0.273
+not so loud,not so loud,change_volume,no,0.642
+quieter please,quieter please,change_volume,cancel,0.853
+can you speak quieter,can you speak quieter,change_volume,whisper_mode,0.704
+are you my insubordinate,are you my insubordinate,who_do_you_work_for,oos,0.12
+do i own you,do i own you,who_do_you_work_for,what_are_your_hobbies,0.138
+do you take your orders from me,do you take your orders from me,who_do_you_work_for,order,0.211
+who controls you,who controls you,who_do_you_work_for,who_made_you,0.597
+how much do i have available on my visa card,how much do i have available on my visa card,credit_limit,rewards_balance,0.465
+what is my credit max,what is my credit max,credit_limit,credit_score,0.541
+can i get a table for four at 8:00,can i get a table for four at 8 00,how_busy,restaurant_reservation,0.963
+is the friday's full after 4,is the friday s full after 4,how_busy,next_holiday,0.564
+what is the best time to go to get a burger without a line,what is the best time to go to get a burger without a line,how_busy,cook_time,0.603
+how long before i can eat at chic fil a,how long before i can eat at chic fil a,how_busy,cook_time,0.822
+is mr joes pizza available for a seating,is mr joes pizza available for a seating,how_busy,restaurant_suggestion,0.368
+can i reserve tables at the new york restaurant,can i reserve tables at the new york restaurant,accept_reservations,restaurant_reservation,0.288
+is it possible to reserve a table at white castle,is it possible to reserve a table at white castle,accept_reservations,restaurant_reservation,0.828
+do you think they'll let me reserve a table at the olive garden,do you think they ll let me reserve a table at the olive garden,accept_reservations,restaurant_reservation,0.884
+can you tell me when my item will get here,can you tell me when my item will get here,order_status,oos,0.063
+can you tell me where my item is,can you tell me where my item is,order_status,current_location,0.736
+i would like to change the name on my checking account,i would like to change the name on my checking account,pin_change,change_user_name,0.544
+i would like to change the name on my credit card account,i would like to change the name on my credit card account,pin_change,change_user_name,0.389
+i would like to change the name on my first hawaiian bank account,i would like to change the name on my first hawaiian bank account,pin_change,change_user_name,0.373
+i would like to change the name on my first bankcard account,i would like to change the name on my first bankcard account,pin_change,freeze_account,0.259
+i would like to change the name on my capital one account,i would like to change the name on my capital one account,pin_change,change_user_name,0.584
+change the code of my savings account to be 1234,change the code of my savings account to be 1234,pin_change,freeze_account,0.671
+regards,regards,goodbye,maybe,0.195
+"great talk, thanks",great talk thanks,goodbye,thank_you,0.673
+that will be all have a nice day!,that will be all have a nice day,goodbye,date,0.578
+"that's all i need, i'm going now",that s all i need i m going now,goodbye,maybe,0.288
+signing off,signing off,goodbye,cancel,0.229
+what kind of music on the speaker now,what kind of music on the speaker now,what_song,play_music,0.847
+is there a meeting with sam today,is there a meeting with sam today,meeting_schedule,schedule_meeting,0.696
+what is needed to make lasagna,what is needed to make lasagna,ingredients_list,recipe,0.541
+what is needed to cook lasagna,what is needed to cook lasagna,ingredients_list,recipe,0.535
+give me a recipe for tacos,give me a recipe for tacos,ingredients_list,recipe,0.954
+tell me what's in tacos,tell me what s in tacos,ingredients_list,spelling,0.211
+what's a good recipe foe tacos,what s a good recipe foe tacos,ingredients_list,recipe,0.948
+tell me the ingredients to make an apple pie,tell me the ingredients to make an apple pie,ingredients_list,recipe,0.555
+what am i gonna need for sushi,what am i gonna need for sushi,ingredients_list,recipe,0.475
+pull up everything i need to make a pasta dish,pull up everything i need to make a pasta dish,ingredients_list,recipe,0.708
+tell me all the things i need to buy to make pasta,tell me all the things i need to buy to make pasta,ingredients_list,order,0.801
+my online bill has some items that i didn't purchase from penneys,my online bill has some items that i didn t purchase from penneys,report_fraud,bill_balance,0.246
+my account shows a transaction that i didn't make from foot locker,my account shows a transaction that i didn t make from foot locker,report_fraud,transactions,0.728
+my bill shows a purchase from payless shoes but i didn't buy anything,my bill shows a purchase from payless shoes but i didn t buy anything,report_fraud,order,0.157
+this charge is bs,this charge is bs,report_fraud,appliance_warranty,0.166
+i have a bogus transaction from amazon on my account,i have a bogus transaction from amazon on my account,report_fraud,transactions,0.538
+i have a crap transaction from guitar center on my account,i have a crap transaction from guitar center on my account,report_fraud,transactions,0.705
+i think this transaction is bogus,i think this transaction is bogus,report_fraud,transactions,0.954
+i don't remember buying this,i don t remember buying this,report_fraud,transactions,0.205
+i have a bs transaction from ebay on my account,i have a bs transaction from ebay on my account,report_fraud,transactions,0.489
+i think someone jacked my bank account,i think someone jacked my bank account,report_fraud,account_blocked,0.923
+someone else used my account to buy stuff from mcdonald's,someone else used my account to buy stuff from mcdonald s,report_fraud,order,0.177
+there's a messed up transaction on my account from mcdonald's,there s a messed up transaction on my account from mcdonald s,report_fraud,transactions,0.614
+how does measurement a convert to measurement b,how does measurement a convert to measurement b,measurement_conversion,calculator,0.34
+start the dishwasher,start the dishwasher,smart_home,appliance_fault,0.774
+turn on the microwave for 3 minutes,turn on the microwave for 3 minutes,smart_home,timer,0.933
+i want the light less bright please,i want the light less bright please,smart_home,appliance_fault,0.285
+what could help me locate myself,what could help me locate myself,current_location,user_name,0.215
+how much do i owe the irs,how much do i owe the irs,taxes,translate,0.693
+how much do i pay the irs,how much do i pay the irs,taxes,bill_balance,0.559
+"that was a mistake, undo that",that was a mistake undo that,cancel,no,0.205
+hush,hush,cancel,greeting,0.682
+"if you were traveling to indonesia, as i am, would you have your shots updated before your visit",if you were traveling to indonesia as i am would you have your shots updated before your visit,vaccines,where_are_you_from,0.265
+please tell me the exact number of days i have still for vacation,please tell me the exact number of days i have still for vacation,pto_balance,pto_used,0.553
+what is my remaining amount of pto days,what is my remaining amount of pto days,pto_balance,pto_used,0.53
+what do my pto days amount to,what do my pto days amount to,pto_balance,pto_used,0.635
+how many days on holiday do i have,how many days on holiday do i have,pto_balance,next_holiday,0.791
+can you see if i have any vacation days available for a request,can you see if i have any vacation days available for a request,pto_balance,pto_request,0.819
+what is the balance on my vacation days,what is the balance on my vacation days,pto_balance,balance,0.354
+how many sick days do i have,how many sick days do i have,pto_balance,pto_used,0.63
+"tell me how to spent ""frightened",tell me how to spent frightened,spelling,spending_history,0.954
+is everything ok today,is everything ok today,greeting,date,0.599
+it is good to see you,it is good to see you,greeting,goodbye,0.648
+who do i have the pleasure of speaking with,who do i have the pleasure of speaking with,what_is_your_name,oos,0.367
+who am i speaking with,who am i speaking with,what_is_your_name,current_location,0.205
+what's the apr on my savings account,what s the apr on my savings account,interest_rate,apr,0.971
+how much interest is my nfcu accrueing,how much interest is my nfcu accrueing,interest_rate,oos,0.866
+what's my savings account interest,what s my savings account interest,interest_rate,balance,0.448
+can i get more credit,can i get more credit,credit_limit_change,improve_credit_score,0.839
+what do you like to do besides work,what do you like to do besides work,what_are_your_hobbies,who_do_you_work_for,0.499
+book me a place to chicago from atlanta united airlines,book me a place to chicago from atlanta united airlines,book_flight,book_hotel,0.611
+can i fly from atlanta to san francisco for less than 100 dollars,can i fly from atlanta to san francisco for less than 100 dollars,book_flight,exchange_rate,0.236
+did i remember to put oatmeal on my list,did i remember to put oatmeal on my list,shopping_list,todo_list,0.58
+iterate over the items on my grocery list,iterate over the items on my grocery list,shopping_list,todo_list,0.635
+do i have twinkies on the grocery list,do i have twinkies on the grocery list,shopping_list,todo_list,0.647
+have i already got eggs down on the shopping list,have i already got eggs down on the shopping list,shopping_list,shopping_list_update,0.655
+recite the items i'm planning to purchase,recite the items i m planning to purchase,shopping_list,order,0.743
+do i have to buy milk,do i have to buy milk,shopping_list,order,0.408
+am i supposed to buy milk,am i supposed to buy milk,shopping_list,order,0.799
+is milk one of the things i need to buy,is milk one of the things i need to buy,shopping_list,order,0.869
+are carrots added to the grocery list,are carrots added to the grocery list,shopping_list,shopping_list_update,0.929
+tell jim i'm coming home soon,tell jim i m coming home soon,text,goodbye,0.416
+i want to tell susan that the meeting has been cancelled,i want to tell susan that the meeting has been cancelled,text,meeting_schedule,0.881
+tell fred that i don't have his guitar,tell fred that i don t have his guitar,text,play_music,0.563
+what do i owe to jcp,what do i owe to jcp,bill_balance,oos,0.249
+what is the amount due on my visa,what is the amount due on my visa,bill_balance,credit_limit,0.425
+how much do i owe visa,how much do i owe visa,bill_balance,credit_limit,0.634
+i need to know the price of my car payment and insurance please,i need to know the price of my car payment and insurance please,bill_balance,pay_bill,0.33
+how expensive is my internet,how expensive is my internet,bill_balance,oos,0.951
+what will i be paying for utilities this month,what will i be paying for utilities this month,bill_balance,min_payment,0.452
+is the phone bill the same as last month,is the phone bill the same as last month,bill_balance,bill_due,0.787
+whens my insurance due and how much does it cost,whens my insurance due and how much does it cost,bill_balance,bill_due,0.228
+i'd like for this person to know my location,i d like for this person to know my location,share_location,current_location,0.948
+what is my current location,what is my current location,share_location,current_location,0.969
+show allison how to get to me,show allison how to get to me,share_location,goodbye,0.139
+what are my mastercard points good for,what are my mastercard points good for,redeem_rewards,rewards_balance,0.9
+how do i use my card reward points for my next flight,how do i use my card reward points for my next flight,redeem_rewards,rewards_balance,0.826
+i want to use my card reward points,i want to use my card reward points,redeem_rewards,rewards_balance,0.589
+what are the steps to get my rewards for my visa card,what are the steps to get my rewards for my visa card,redeem_rewards,rewards_balance,0.883
+how can i claim my rewards for my visa card,how can i claim my rewards for my visa card,redeem_rewards,rewards_balance,0.88
+how can i get my rewards for my master card,how can i get my rewards for my master card,redeem_rewards,rewards_balance,0.624
+where would i get my rewards for my master card,where would i get my rewards for my master card,redeem_rewards,rewards_balance,0.918
+help me redeem my reward points,help me redeem my reward points,redeem_rewards,rewards_balance,0.527
+get me my slow sounds,get me my slow sounds,play_music,change_speed,0.963
+bump some jams,bump some jams,play_music,tell_joke,0.558
+turn on metallicas greatest hits,turn on metallicas greatest hits,play_music,oos,0.321
+what can i do to get rid of this event,what can i do to get rid of this event,calendar_update,oos,0.214
+is your voice from a human or is it synthesized,is your voice from a human or is it synthesized,are_you_a_bot,change_accent,0.396
+can i get to susan's house with my current tank,can i get to susan s house with my current tank,gas,smart_home,0.255
+how many more miles can i drive on my current tank,how many more miles can i drive on my current tank,gas,mpg,0.595
+when will my new credit card arrive,when will my new credit card arrive,expiration_date,replacement_card_duration,0.951
+include rap god on the motivational playlist,include rap god on the motivational playlist,update_playlist,play_music,0.884
+you are going to be called joe now,you are going to be called joe now,change_ai_name,change_user_name,0.776
+start responding to joe,start responding to joe,change_ai_name,change_user_name,0.201
+what's your bday,what s your bday,how_old_are_you,greeting,0.918
+where in syracuse can i book a car,where in syracuse can i book a car,car_rental,oos,0.187
+i would like thai food,i would like thai food,meal_suggestion,recipe,0.189
+can you recommend thai food,can you recommend thai food,meal_suggestion,recipe,0.354
+i need options or italian tonight,i need options or italian tonight,meal_suggestion,translate,0.4
+do you have any recommendations for korean,do you have any recommendations for korean,meal_suggestion,change_language,0.188
+what kind of indian would you recommend,what kind of indian would you recommend,meal_suggestion,change_language,0.22
+what would you suggest for japanese,what would you suggest for japanese,meal_suggestion,translate,0.907
+i need to know what's good for chinese around here,i need to know what s good for chinese around here,meal_suggestion,translate,0.768
+do you have any suggested roman recipes,do you have any suggested roman recipes,meal_suggestion,recipe,0.656
+what do i need to do to cook a chicken,what do i need to do to cook a chicken,recipe,ingredients_list,0.653
+show me ideas for hamburger,show me ideas for hamburger,recipe,ingredients_list,0.311
+please tell me a recipe for this meal,please tell me a recipe for this meal,recipe,meal_suggestion,0.51
+what is in a burrito recipe,what is in a burrito recipe,recipe,ingredients_list,0.575
+what do i take home,what do i take home,income,travel_suggestion,0.631
+what will i get paid this year,what will i get paid this year,income,payday,0.412
+what is my payment going to be,what is my payment going to be,income,bill_balance,0.344
+place my order alexa,place my order alexa,order,order_status,0.958
+"siri, place my amazon order",siri place my amazon order,order,order_status,0.961
+where can i find bluetooth speakers,where can i find bluetooth speakers,order,oos,0.973
+what is the price of bluetooth speakers on amazon,what is the price of bluetooth speakers on amazon,order,oos,0.988
+why my card stop working,why my card stop working,card_declined,damaged_card,0.656
+i could not buy food using my card when i was in vietnam,i could not buy food using my card when i was in vietnam,card_declined,bill_due,0.305
+i was in thailand and i could not use my card to buy snacks,i was in thailand and i could not use my card to buy snacks,card_declined,damaged_card,0.724
+can you explain why i couldn't use my card at target,can you explain why i couldn t use my card at target,card_declined,damaged_card,0.487
+my credit card was turned down at target and i'd like to know why,my credit card was turned down at target and i d like to know why,card_declined,damaged_card,0.868
+why can't i use my credit card,why can t i use my credit card,card_declined,new_card,0.291
+why won't you let me pay with my credit card,why won t you let me pay with my credit card,card_declined,bill_due,0.722
+how come my credit card isn't working,how come my credit card isn t working,card_declined,replacement_card_duration,0.217
+can you dim the brightness of my screen,can you dim the brightness of my screen,oos,smart_home,0.699
+can you put the car in fuel efficient mode,can you put the car in fuel efficient mode,oos,gas_type,0.911
+at what age can someone get a card,at what age can someone get a card,oos,new_card,0.453
+how do i get red wine out of a couch cushion,how do i get red wine out of a couch cushion,oos,recipe,0.803
+what big news happened over the weekend,what big news happened over the weekend,oos,calendar,0.2
+is the earth flat,is the earth flat,oos,current_location,0.147
+what oil is best for chicken,what oil is best for chicken,oos,oil_change_how,0.908
+has there been anything breaking this afternoon,has there been anything breaking this afternoon,oos,calendar,0.22
+what is the amount of blood needed to stay alive,what is the amount of blood needed to stay alive,oos,bill_balance,0.371
+can you add a bag to my reservation,can you add a bag to my reservation,oos,cancel_reservation,0.907
+can you auto-pilot the car,can you auto pilot the car,oos,jump_start,0.373
+can you tell me what credit cards i have open,can you tell me what credit cards i have open,oos,new_card,0.435
+can you find the answer to number 26 in this algebra two textbook,can you find the answer to number 26 in this algebra two textbook,oos,text,0.355
+how many steps have i taken today,how many steps have i taken today,oos,pto_used,0.36
+can you fill in my credit card number on the screen,can you fill in my credit card number on the screen,oos,credit_limit,0.107
+how many miles does my car currently have,how many miles does my car currently have,oos,mpg,0.835
+read text,read text,oos,text,0.943
+park the car,park the car,oos,mpg,0.249
+may i finish washing then i give you please,may i finish washing then i give you please,oos,cancel,0.561
+can you delete my saved credit card,can you delete my saved credit card,oos,damaged_card,0.731
+did the supreme court nominee get approvedu,did the supreme court nominee get approvedu,oos,pto_request_status,0.611
+how do i make my android phone more secure,how do i make my android phone more secure,oos,sync_device,0.19
+what is that crunchy stuff on creme bruleo,what is that crunchy stuff on creme bruleo,oos,ingredients_list,0.491
+which airports do southwest service around the greater new york city area,which airports do southwest service around the greater new york city area,oos,distance,0.224
+can you retrieve client d's file please,can you retrieve client d s file please,oos,reset_settings,0.295
+can you tell me the s&p average,can you tell me the s p average,oos,calculator,0.8
+how would you rate the airport i am traveling to,how would you rate the airport i am traveling to,oos,distance,0.289
+am i too old to be a sugar babyo,am i too old to be a sugar babyo,oos,how_old_are_you,0.331
+has ko gone up or down,has ko gone up or down,oos,cancel,0.217
+how many cars average are on the road daily,how many cars average are on the road daily,oos,mpg,0.775
+what does the plus sign mean on my dashboard,what does the plus sign mean on my dashboard,oos,definition,0.895
+when should i remove my snow tires,when should i remove my snow tires,oos,tire_pressure,0.637
+what is the fee for a cash advance,what is the fee for a cash advance,oos,international_fees,0.255
+tell me about the earthquake in california that happened this morning,tell me about the earthquake in california that happened this morning,oos,weather,0.163
+change color contrast,change color contrast,oos,change_accent,0.445
+can i deposit a check,can i deposit a check,oos,direct_deposit,0.709
+go and check the fridge,go and check the fridge,oos,food_last,0.849
+i want to find a new car under $25000,i want to find a new car under 2500,oos,gas_type,0.218
+when is the next full moon,when is the next full moon,oos,next_holiday,0.765
+should i do a complete stop at red lights,should i do a complete stop at red lights,oos,smart_home,0.382
+how to be millionare,how to be millionare,oos,exchange_rate,0.56
+how can i get a better rate on my card,how can i get a better rate on my card,oos,new_card,0.269
+it is white colour,it is white colour,oos,change_accent,0.218
+how much time do i have left on my 0% apr,how much time do i have left on my 0 apr,oos,apr,0.966
+what time do i need to arrive to make it on time,what time do i need to arrive to make it on time,oos,distance,0.369
+how many hurricanes are in an average hurricane season,how many hurricanes are in an average hurricane season,oos,weather,0.87
+what's going on in the world today,what s going on in the world today,oos,time,0.203
+what battery percentage is my phone at,what battery percentage is my phone at,oos,find_phone,0.421
+can you sign out of my bank login,can you sign out of my bank login,oos,balance,0.3
+what is one standard deviation,what is one standard deviation,oos,definition,0.358
+what is the cashback rate for my credit card,what is the cashback rate for my credit card,oos,redeem_rewards,0.296
+can my grace period be extended any possible way,can my grace period be extended any possible way,oos,pto_balance,0.113
+how fast am i going,how fast am i going,oos,change_speed,0.78
+how much memory do i have left on this phone,how much memory do i have left on this phone,oos,sync_device,0.283
+can i set up mobile deposits,can i set up mobile deposits,oos,find_phone,0.137
+what bills is congress talking about passing or blocking today,what bills is congress talking about washing or blocking today,oos,bill_balance,0.925
+how much data does my phone have left this month,how much data does my phone have left this month,oos,sync_device,0.261
+how do i add someone to my account,how do i add someone to my account,oos,freeze_account,0.857
+how much money would my house sell for,how much money would my house sell for,oos,income,0.243
+how do i install new cabinets,how do i install new cabinets,oos,appliance_installation,0.623
+delete the contact uncle john from my phone,delete the contact uncle john from my phone,oos,sync_device,0.816
+what are the limits in my phone plan,what are the limits in my phone plan,oos,sync_device,0.395
+is there a way to change your houses address,is there a way to change your houses address,oos,where_are_you_from,0.637
+is there a better bus route i should be taking,is there a better bus route i should be taking,oos,traffic,0.646
+what stores are at my local mall,what stores are at my local mall,oos,travel_suggestion,0.264
+i need to get kalee added to my phone plan,i need to get kalee added to my phone plan,oos,sync_device,0.38
+how long do i have to wait to get my refund,how long do i have to wait to get my refund,oos,how_busy,0.866
+how long does it take the irs to issue a tax refund,how long does it take the irs to issue a tax refund,oos,taxes,0.462
+do you know if it is possible to close my savings account,do you know if it is possible to close my savings account,oos,freeze_account,0.948
+how hard is it to close a bank account at wells fargo,how hard is it to close a bank account at wells fargo,oos,account_blocked,0.593
+add my wife as an authorized user to checking account 20905432,add my wife as an authorized user to checking account 20905432,oos,freeze_account,0.235
+i would like to upgrade to full coverage for my car,i would like to upgrade to full coverage for my car,oos,schedule_maintenance,0.34
+who has the cheapest insurance for my model car in the area,who has the cheapest insurance for my model car in the area,oos,insurance,0.505
+tell me the value on my current car,tell me the value on my current car,oos,gas_type,0.3
+what is the price to buy more data on my phone,what is the price to buy more data on my phone,oos,order,0.412
+i need to add a person to my bank account,i need to add a person to my bank account,oos,freeze_account,0.952
+i want to install new tiles in my kitchen,i want to install new tiles in my kitchen,oos,appliance_installation,0.729
+what's the way for delta to cancel a flight,what s the way for delta to cancel a flight,oos,flight_status,0.667
+do other providers have better coverage than my cell carrier,do other providers have better coverage than my cell carrier,oos,insurance,0.311
+is there an alternate bus stop close to my home i can use,is there an alternate bus stop close to my home i can use,oos,directions,0.713
+what stores are in the local mall,what stores are in the local mall,oos,travel_suggestion,0.572
+"add mary to my phone plan, please",add mary to my phone plan please,oos,sync_device,0.759
+how much is it to get more data on my phone plan,how much is it to get more data on my phone plan,oos,sync_device,0.564
+can i use direct deposit for my tax refund,can i use direct deposit for my tax refund,oos,direct_deposit,0.734
+please take all my money out of my checking account and close the account,please take all my money out of my checking account and close the account,oos,transfer,0.71
+switch over to low power mode to preserve battery life,switch over to low power mode to preserve battery life,oos,jump_start,0.574
+i am looking for a suit for work,i am looking for a suit for work,oos,who_do_you_work_for,0.215
+how much is my car worth used,how much is my car worth used,oos,gas_type,0.274
+look up prices for parking at the airport over the weekend,look up prices for parking at the airport over the weekend,oos,traffic,0.267
+what is the best way for dealing with the airport,what is the best way for dealing with the airport,oos,traffic,0.198
+what are my hours this week at work,what are my hours this week at work,oos,pto_used,0.207
+can you check my voicemail,can you check my voicemail,oos,sync_device,0.136
+i would like to know how long a charge is suppose to last on my phone,i would like to know how long a charge is suppose to last on my phone,oos,find_phone,0.441
+check battery health on this device,check battery health on this device,oos,schedule_maintenance,0.202
+when is it cheapest to travel to hawaii,when is it cheapest to travel to hawaii,oos,travel_alert,0.425
+i need a laptop with 16gb of ram,i need a laptop with 16gb of ram,oos,mpg,0.201
+give me information about the element carbon and its reactions with hydrogen,give me information about the element carbon and its reactions with hydrogen,oos,ingredient_substitution,0.705
+how much is this years model of my car cost,how much is this years model of my car cost,oos,bill_balance,0.273
+remind me of the address for my workplace please,remind me of the address for my workplace please,oos,reminder_update,0.166
+what time do i have to go to work today,what time do i have to go to work today,oos,pto_used,0.245
+can you look up grocery coupons for me,can you look up grocery coupons for me,oos,recipe,0.392
+what is money used for,what is money used for,oos,balance,0.378
+how do you make sure a bridge doesn't fall down,how do you make sure a bridge doesn t fall down,oos,directions,0.156
+what is the median salary for someone with an engineering degree,what is the median salary for someone with an engineering degree,oos,income,0.609
+why would the water be turned off,why would the water be turned off,oos,appliance_fault,0.352
+what is a good sink filter for water,what is a good sink filter for water,oos,appliance_spare_parts,0.545
+what does water taste like,what does water taste like,oos,meal_suggestion,0.347
+when was my lawn last mowed,when was my lawn last mowed,oos,last_maintenance,0.747
+can you tell me the best time to visit downtown when driving,can you tell me the best time to visit downtown when driving,oos,travel_suggestion,0.412
+tell me about personal finance,tell me about personal finance,oos,insurance,0.235
+does amazon collect my personal information,does amazon collect my personal information,oos,todo_list,0.254
+check the status of my amazon orders for me,check the status of my amazon orders for me,oos,order_status,0.937
+what is the official language of romania,what is the official language of romania,oos,change_language,0.445
+show me the best times to book flights for traveling to another country,show me the best times to book flights for traveling to another country,oos,book_flight,0.631
+disconnect from wifi immediately please,disconnect from wifi immediately please,oos,sync_device,0.582
+list the contents of my safety deposit box at the bank,list the contents of my safety deposit box at the bank,oos,direct_deposit,0.245
+what coupons do i have for restaurants,what coupons do i have for restaurants,oos,restaurant_suggestion,0.739
+how do i make money,how do i make money,oos,income,0.607
+what's the best way to build a skyscraper,what s the best way to build a skyscraper,oos,appliance_spare_parts,0.127
+find engineering programs to apply to,find engineering programs to apply to,oos,appliance_installation,0.232
+check to see how many miles are on my car,check to see how many miles are on my car,oos,mpg,0.886
+how many ppm of particulate is in my local water,how many ppm of particulate is in my local water,oos,calories,0.254
+is anything on my grocery list on sale today,is anything on my grocery list on sale today,oos,todo_list,0.591
+how long does it take for grass seed to grow on my lawn,how long does it take for grass seed to grow on my lawn,oos,food_last,0.759
+will amazon ship an order even if there was a pricing mistake,will amazon ship an order even if there was a pricing mistake,oos,order_status,0.924
+what are some of the most visited countries for people looking to travel abroad,what are some of the most visited countries for people looking to travel abroad,oos,travel_suggestion,0.798
+if i'm locked in a bank vault what's the best way to get out,if i m locked in a bank vault what s the best way to get out,oos,travel_notification,0.125
+how do i upgrade my operating system,how do i upgrade my operating system,oos,reset_settings,0.287
+what's the power consumption of my fridge,what s the power consumption of my fridge,oos,food_last,0.387
+what is the warranty on my microwave,what is the warranty on my microwave,oos,appliance_warranty,0.963
+how do you get red wine out of the carpet,how do you get red wine out of the carpet,oos,recipe,0.452
+how do i get stains out of the carpet,how do i get stains out of the carpet,oos,appliance_spare_parts,0.104
+what time did my daughter get home from her date,what time did my daughter get home from her date,oos,time,0.202
+are you allowed to call someone a dirty name as part of free speech,are you allowed to call someone a dirty name as part of free speech,oos,change_user_name,0.656
+can you really get arrested for yelling fire in a crowded theater,can you really get arrested for yelling fire in a crowded theater,oos,how_busy,0.206
+what's a good gift to get for your grandparents,what s a good gift to get for your grandparents,oos,order,0.204
+what year did my grandparents get married,what year did my grandparents get married,oos,spending_history,0.238
+where's the best place to hike in the rockies,where s the best place to hike in the rockies,oos,travel_suggestion,0.528
+what should i wear to hike,what should i wear to hike,oos,travel_suggestion,0.289
+what's the proper subject verb order in japanese,what s the proper subject verb order in japanese,oos,translate,0.582
+the bus moves with tyre,the bus moves with tyre,oos,smart_home,0.423
+how the bus moves,how the bus moves,oos,directions,0.681
+what are some good resources to learn about mental illness,what are some good resources to learn about mental illness,oos,fun_fact,0.525
+how can i get help for my mental health,how can i get help for my mental health,oos,insurance,0.882
+send information on flood clean up to my phone,send information on flood clean up to my phone,oos,sync_device,0.913
+recommend a flood clean up service,recommend a flood clean up service,oos,appliance_installation,0.195
+where can i buy new shingles,where can i buy new shingles,oos,order,0.821
+what's the safest pet to be around toddlers,what s the safest pet to be around toddlers,oos,do_you_have_pets,0.424
+what's the average rent of apartments in my city,what s the average rent of apartments in my city,oos,income,0.107
+are there any apartments for rent nearby,are there any apartments for rent nearby,oos,car_rental,0.513
+what's the cost of bottled water,what s the cost of bottled water,oos,bill_balance,0.482
+what's the cost to have a business card printed,what s the cost to have a business card printed,oos,apr,0.132
+when can i get a business card printed locally,when can i get a business card printed locally,oos,replacement_card_duration,0.887
+what to use to design my business cards,what to use to design my business cards,oos,report_lost_card,0.229
+download all the photos off my phone into the cloud,download all the photos off my phone into the cloud,oos,sync_device,0.828
+what kind of camera should i buy,what kind of camera should i buy,oos,order,0.353
+how much candy have i consumed this week,how much candy have i consumed this week,oos,food_last,0.776
+who makes milky way bars,who makes milky way bars,oos,recipe,0.383
+how safe is it to consume the substance h2o,how safe is it to consume the substance h2o,oos,ingredient_substitution,0.284
+look up some christmas songs for me,look up some christmas songs for me,oos,what_song,0.529
+how many calories does doing 20 situps burn,how many calories does doing 20 situps burn,oos,calories,0.951
+should i run every day,should i run every day,oos,repeat,0.128
+how many months do i left in my hbo subscription,how many months do i left in my hbo subscription,oos,spending_history,0.303
+cancel my subscription to scientific american,cancel my subscription to scientific american,oos,cancel_reservation,0.612
+i'd like to renew my subscription to playboy,i d like to renew my subscription to playboy,oos,order,0.26
+how can i use make up to cover a cut on my cheek,how can i use make up to cover a cut on my cheek,oos,appliance_spare_parts,0.337
+whats the best rated lipstick,whats the best rated lipstick,oos,restaurant_reviews,0.864
+how do i make a sentence have stylized strike out in microsoft word,how do i make a sentence have stylized strike out in microsoft word,oos,definition,0.397
+what was the original name of jesus in egyptian myth,what was the original name of jesus in egyptian myth,oos,translate,0.631
+what activities can i to do outside today,what activities can i to do outside today,oos,travel_suggestion,0.514
+can you check how many miles i walked today when i was out get the info from my phone,can you check how many miles i walked today when i was out get the info from my phone,oos,find_phone,0.723
+can you check how many steps i have walked in the last week from my phone app,can you check how many steps i have walked in the last week from my phone app,oos,sync_device,0.554
+what should i do if it hurts when i pee,what should i do if it hurts when i pee,oos,tell_joke,0.276
+what are the symptoms of cancer,what are the symptoms of cancer,oos,nutrition_info,0.364
+what other countries speak the english language,what other countries speak the english language,oos,change_language,0.955
+why doesn't english have consistent forms,why doesn t english have consistent forms,oos,translate,0.691
+do they speak english in australia,do they speak english in australia,oos,change_language,0.943
+what movies are playing at my local cinemax,what movies are playing at my local cinemax,oos,restaurant_reviews,0.612
+what time is a star is born showing,what time is a star is born showing,oos,time,0.629
+what's the cost of a good pegboard,what s the cost of a good pegboard,oos,bill_balance,0.359
+is the stop sign around the corner still knocked over,is the stop sign around the corner still knocked over,oos,smart_home,0.438
+is there a fork in the road sign at main & 1st avenue,is there a fork in the road sign at main 1st avenue,oos,directions,0.434
+will the anti-vaxxers die off if no one gives them vaccines,will the anti vaxxers die off if no one gives them vaccines,oos,vaccines,0.894
+how safe is the herpes vaccine they give women,how safe is the herpes vaccine they give women,oos,vaccines,0.942
+when do i have to get the mmr,when do i have to get the mmr,oos,pto_balance,0.118
+i need you to check the resistance of a coil wrapped 6 times with an id of 25mm,i need you to check the resistance of a coil wrapped 6 times with an id of 25mm,oos,appliance_spare_parts,0.553
+what do you do if your 4 year old just ate playdoh,what do you do if your 4 year old just ate playdoh,oos,what_are_your_hobbies,0.205
+give me a list of the top three landscaping companies nearby,give me a list of the top three landscaping companies nearby,oos,travel_suggestion,0.442
+when should you mow your grass after it's rained,when should you mow your grass after it s rained,oos,weather,0.822
+how much sugar was in my urine this morning,how much sugar was in my urine this morning,oos,food_last,0.815
+how much does it cost to spay a puppy,how much does it cost to spay a puppy,oos,bill_balance,0.648
+can you tell me about that tornado that just tore up alabama,can you tell me about that tornado that just tore up alabama,oos,weather,0.328
+upload the pictures to the correct album,upload the pictures to the correct album,oos,order_status,0.26
+i have a super runny nose and want to find a doctor,i have a super runny nose and want to find a doctor,oos,find_phone,0.189
+which medicine to relieve my cough,which medicine to relieve my cough,oos,food_last,0.294
+how do i get rid of sore throat at home,how do i get rid of sore throat at home,oos,smart_home,0.302
+i'd like to find some curtains that look good in this room,i d like to find some curtains that look good in this room,oos,travel_suggestion,0.389
+can you tell me the purpose of a safe deposit box,can you tell me the purpose of a safe deposit box,oos,direct_deposit,0.705
+how do you get a safe deposit box,how do you get a safe deposit box,oos,direct_deposit,0.876
+look up how to apply cream to smooth itchiness,look up how to apply cream to smooth itchiness,oos,ingredient_substitution,0.918
+"how do i deal with angry, painful red bumps",how do i deal with angry painful red bumps,oos,recipe,0.482
+where should i go if i hammered a nail through my foot,where should i go if i hammered a nail through my foot,oos,appliance_spare_parts,0.163
+how long does it take to call an ambulance,how long does it take to call an ambulance,oos,cook_time,0.127
+give me a recommendation for a local landscaper,give me a recommendation for a local landscaper,oos,travel_suggestion,0.306
+tell me more about bill gates,tell me more about bill gates,oos,bill_balance,0.88
+give me the weather forecast for today,give me the weather forecast for today,oos,weather,0.974
+can you colorize a black and white photo,can you colorize a black and white photo,oos,flip_coin,0.513
+time my next run at the boston marathon,time my next run at the boston marathon,oos,distance,0.282
+what is the breath to compression ratio for cpr,what is the breath to compression ratio for cpr,oos,appliance_fault,0.249
+create a for-while loop that continues 10 times,create a for while loop that continues 10 times,oos,calculator,0.22
+how do i write c++,how do i write c,oos,translate,0.167
+where is the best place to mine for gold,where is the best place to mine for gold,oos,travel_suggestion,0.706
+make a list of facts about green book,make a list of facts about green book,oos,fun_fact,0.954
+how many acres do you need to buy a horse,how many acres do you need to buy a horse,oos,order,0.321
+get me a picture of a horse,get me a picture of a horse,oos,roll_dice,0.155
+is there a vaccine for ebola,is there a vaccine for ebola,oos,vaccines,0.926
+make a list of side hustles i could start today to make a little extra cash,make a list of side hustles i could start today to make a little extra cash,oos,shopping_list_update,0.15
+how can i add my signature to the proposed bill legalizing prostitution,how can i add my signature to the proposed bill legalizing prostitution,oos,bill_balance,0.262
+when's the next mardi gras going to be,when s the next mardi gras going to be,oos,calendar,0.383
+start a speech on microbes for me,start a speech on microbes for me,oos,change_speed,0.723
+can the nsa crack the encryption on my iphone,can the nsa crack the encryption on my iphone,oos,find_phone,0.538
+does the nsa listen to me,does the nsa listen to me,oos,play_music,0.539
+can you see if the octopus eggs have hatched yet,can you see if the octopus eggs have hatched yet,oos,food_last,0.808
+what do you do if your cat eats an octopus,what do you do if your cat eats an octopus,oos,do_you_have_pets,0.887
+what's the current prevailing interest rate for mortgages in my area,what s the current prevailing interest rate for mortgages in my area,oos,interest_rate,0.979
+please list my real estate for sale,please list my real estate for sale,oos,transactions,0.278
+make an ad to sell my real estate,make an ad to sell my real estate,oos,order,0.526
+how long would it take you to die of thirst in the sahara desert,how long would it take you to die of thirst in the sahara desert,oos,distance,0.545
+see if you can purchase a spacesuit online,see if you can purchase a spacesuit online,oos,order,0.574
+compile a list of articles pertaining to venture capital funding for me,compile a list of articles pertaining to venture capital funding for me,oos,reminder,0.116
+how do i get venture capital for my app,how do i get venture capital for my app,oos,application_status,0.671
+i'd like to hire a wedding planner and need help finding one,i d like to hire a wedding planner and need help finding one,oos,shopping_list,0.111
+what did my best friend do in the kitchen while we were gone,what did my best friend do in the kitchen while we were gone,oos,spending_history,0.464
+what's my boss' home address,what s my boss home address,oos,who_do_you_work_for,0.496
+what's it like to have parents who actually love you,what s it like to have parents who actually love you,oos,who_do_you_work_for,0.556
+tell me where i can get more information on getting a job at the post office,tell me where i can get more information on getting a job at the post office,oos,travel_suggestion,0.265
+i would like for you to start a biography on me,i would like for you to start a biography on me,oos,translate,0.185
+find out what supplies i am missing and will need on my upcoming camping trip,find out what supplies i am missing and will need on my upcoming camping trip,oos,todo_list,0.313
+what are the camping restrictions at bear island,what are the camping restrictions at bear island,oos,travel_suggestion,0.753
+look up ways for me to advance my job placement,look up ways for me to advance my job placement,oos,improve_credit_score,0.233
+see if there is a recipe to make a casserole without any dairy,see if there is a recipe to make a casserole without any dairy,oos,recipe,0.849
+tell me in how many different colors i can get dinner plates from pier one imports,tell me in how many different colors i can get dinner plates from pier one imports,oos,recipe,0.32
+tell me amazon's choice for a set of 4 dinner plates,tell me amazon s choice for a set of 4 dinner plates,oos,meal_suggestion,0.428
+find out where i can by melamine dinner plates,find out where i can by melamine dinner plates,oos,restaurant_suggestion,0.806
+look up the conversion rate for the euro to dollar exchange,look up the conversion rate for the euro to dollar exchange,oos,exchange_rate,0.979
+how do i put a lens that's fallen out back in my glasses,how do i put a lens that s fallen out back in my glasses,oos,appliance_fault,0.364
+i need you to order a new pair of eyeglasses for me,i need you to order a new pair of eyeglasses for me,oos,order,0.965
+make a list of all sites in the us where spirits have been seen at night,make a list of all sites in the us where spirits have been seen at night,oos,travel_suggestion,0.896
+make a list of goals i need to meet in order to write a book,make a list of goals i need to meet in order to write a book,oos,schedule_meeting,0.419
+remind me what my weight loss goals are,remind me what my weight loss goals are,oos,balance,0.192
+give me a list of tax attorneys that practice in my city,give me a list of tax attorneys that practice in my city,oos,taxes,0.796
+give me the number of a traffic attorney near here,give me the number of a traffic attorney near here,oos,traffic,0.898
+please book another boat for this weekends trip,please book another boat for this weekends trip,oos,car_rental,0.182
+how do i write an iep for a high schooler,how do i write an iep for a high schooler,oos,plug_type,0.127
+tell me how to make a lesson plan,tell me how to make a lesson plan,oos,meal_suggestion,0.172
+find the best prices for toothpaste at any store within a 5 mile radius of my location,find the best prices for toothpaste at any store within a 5 mile radius of my location,oos,directions,0.263
+how do i set the time on my tag heuer,how do i set the time on my tag heuer,oos,time,0.515
+put into words what you want,put into words what you want,oos,translate,0.277
+give me a list of grocery stores that sell japanese sweet potatoes,give me a list of grocery stores that sell japanese sweet potatoes,oos,ingredients_list,0.343
+tell me the price of bananas at whole foods this week,tell me the price of bananas at whole foods this week,oos,food_last,0.12
+call the grocery store and get their operational hours,call the grocery store and get their operational hours,oos,how_busy,0.479
+call an uber to take me to the closest grocery store,call an uber to take me to the closest grocery store,oos,uber,0.972
+which houses do not have automatic spot lights in front of their garage,which houses do not have automatic spot lights in front of their garage,oos,smart_home,0.596
+make a list of all community gardens near me,make a list of all community gardens near me,oos,directions,0.462
+review my resume for spelling errors,review my resume for spelling errors,oos,spelling,0.961
+please print out copies of my resume,please print out copies of my resume,oos,order_status,0.193
+please spell check my resume,please spell check my resume,oos,spelling,0.981
+what's the amusement park like,what s the amusement park like,oos,travel_suggestion,0.361
+take a ride on the ferris wheel,take a ride on the ferris wheel,oos,mpg,0.193
+go on the ferris wheel,go on the ferris wheel,oos,smart_home,0.775
+what is the cost of four double a batteries,what is the cost of four double a batteries,oos,measurement_conversion,0.213
+compare prices of malt-o-meal to kelloggs,compare prices of malt o meal to kelloggs,oos,meal_suggestion,0.761
+what kinds of cereal are gluten free,what kinds of cereal are gluten free,oos,ingredients_list,0.439
+what kinds of cereal are low sugar,what kinds of cereal are low sugar,oos,ingredients_list,0.314
+what are the hours for disney world,what are the hours for disney world,oos,how_busy,0.303
+what time did i get the last text message i received,what time did i get the last text message i received,oos,text,0.562
+please read me the last text message i received,please read me the last text message i received,oos,text,0.717
+read my friend's text message,read my friend s text message,oos,text,0.979
+update my status on instagram,update my status on instagram,oos,order_status,0.337
+can you check on what it would cost me to upgrade my iphone with t-mobile,can you check on what it would cost me to upgrade my iphone with t mobile,oos,find_phone,0.412
+please alert me when my iphone battery falls below 30%,please alert me when my iphone battery falls below 30,oos,jump_start,0.949
+can you look at when the next iphone is due out,can you look at when the next iphone is due out,oos,find_phone,0.538
+create a 500 word letter expressing love,create a 500 word letter expressing love,oos,spelling,0.353
+does denim go with anything,does denim go with anything,oos,definition,0.292
+accept incoming phone call,accept incoming phone call,oos,make_call,0.966
+deny incoming phone call,deny incoming phone call,oos,make_call,0.963
+what do i wear on my feet when it rains,what do i wear on my feet when it rains,oos,weather,0.909
+what do i put on my feet,what do i put on my feet,oos,measurement_conversion,0.535
+what are the words to the chorus for this song,what are the words to the chorus for this song,oos,what_song,0.945
+display the song lyrics for me,display the song lyrics for me,oos,what_song,0.962
+clear my search history,clear my search history,oos,todo_list,0.279
+find out where i can buy a barbie doll for my niece,find out where i can buy a barbie doll for my niece,oos,order,0.433
+aquire the soundtracks from the movie if i stay and add them to my ipod,aquire the soundtracks from the movie if i stay and add them to my ipod,oos,update_playlist,0.82
+how many hits have i done today,how many hits have i done today,oos,what_song,0.453
+organize photos by year they were taken,organize photos by year they were taken,oos,pto_used,0.421
+can you group my photos by location,can you group my photos by location,oos,current_location,0.652
+organize my photos by date please,organize my photos by date please,oos,date,0.726
+look up the operating hours of my local park on weekends,look up the operating hours of my local park on weekends,oos,how_busy,0.415
+how many parks are within 20 miles of me,how many parks are within 20 miles of me,oos,travel_suggestion,0.361
+check to see if i still have allergy medication,check to see if i still have allergy medication,oos,food_last,0.361
+look up local repair shops that work on vacuum cleaners,look up local repair shops that work on vacuum cleaner,oos,restaurant_suggestion,0.341
+find directions to the sunshine car wash from my house,find directions to the sunshine car wash from my house,oos,smart_home,0.447
+can you book me an appointment at a car wash,can you book me an appointment at a car wash,oos,car_rental,0.344
+what brush can i use to wash my car that won't scratch it,what brush can i use to wash my car that won t scratch it,oos,gas_type,0.539
+please clean the car windows,please clean the car windows,oos,smart_home,0.354
+vacuum out the car,vacuum out the car,oos,smart_home,0.73
+schedule an appointment with the credit counselor for tuesday,schedule an appointment with the credit counselor for tuesday,oos,calendar_update,0.409
+how much does it cost to get two jackets dry cleaned,how much does it cost to get two jackets dry cleaned,oos,bill_balance,0.244
+create emergency phone numbers list,create emergency phone numbers list,oos,todo_list_update,0.126
+do sets of 25 set-ups each morning til you have completed your goal,do sets of 25 set ups each morning til you have completed your goal,oos,timer,0.148
+keep a note of how many miles you walk a day,keep a note of how many miles you walk a day,oos,mpg,0.153
+how much weight should i lift to get buff,how much weight should i lift to get buff,oos,gas,0.149
+what do you do if you can't stop vomiting,what do you do if you can t stop vomiting,oos,cancel,0.805
+"i have too many credit cards, is there any way you can help me organize them",i have too many credit cards is there any way you can help me organize them,oos,redeem_rewards,0.259
+explain how to reduce my debt burden,explain how to reduce my debt burden,oos,appliance_warranty,0.103
+look up the current auto loan rate at chase bank,look up the current auto loan rate at chase bank,oos,interest_rate,0.744
+check current prime mortgage rate,check current prime mortgage rate,oos,interest_rate,0.851
+what should you do if you can't be bothered to get out of bed,what should you do if you can t be bothered to get out of bed,oos,what_can_i_ask_you,0.241
+check to see if i need a pass to use the parking garages downtown,check to see if i need a pass to use the parking garages downtown,oos,directions,0.388
+can you check to see which parking garages are open downtown,can you check to see which parking garages are open downtown,oos,directions,0.458
+how much does it cost to use the parking garage downtown,how much does it cost to use the parking garage downtown,oos,bill_balance,0.164
+what's a good way of backing out of a parking spot,what s a good way of backing out of a parking spot,oos,restaurant_suggestion,0.217
+search the web for monthly parking near my house,search the web for monthly parking near my house,oos,car_rental,0.309
+find out where parking is close to the stadium,find out where parking is close to the stadium,oos,traffic,0.419
+what do you do all day while i'm at work,what do you do all day while i m at work,oos,what_are_your_hobbies,0.259
+"so, hang out around this house often",so hang out around this house often,oos,how_busy,0.207
+tell me the best way to freshen the smell in my car,tell me the best way to freshen the smell in my car,oos,food_last,0.737
+where's the closest car wash my car smells,where s the closest car wash my car smells,oos,directions,0.597
+how much is auto febreeze on amazon,how much is auto febreeze on amazon,oos,bill_balance,0.187
+see if you can find a good vegetable wash for me,see if you can find a good vegetable wash for me,oos,meal_suggestion,0.314
+request a refund on the car wax i bought yesterday,request a refund on the car wax i bought yesterday,oos,pto_request_status,0.128
+i'd like to hire someone to wash my car,i d like to hire someone to wash my car,oos,gas_type,0.151
+rent the tuxedo the day before,rent the tuxedo the day before,oos,bill_due,0.57
+order me a book of stamps and envelopes,order me a book of stamps and envelopes,oos,order,0.734
+start listening to me dictate a letter,start listening to me dictate a letter,oos,next_song,0.119
+what shows are on tonight,what shows are on tonight,oos,weather,0.495
+can you tell me what the best places are to look for a job online,can you tell me what the best places are to look for a job online,oos,travel_suggestion,0.5
+please replay the last five minutes,please replay the last five minutes,oos,timer,0.906
+order me a blue pin stripe suit from saville row,order me a blue pin stripe suit from saville row,oos,pin_change,0.571
+how many calories does jumping up and down burn,how many calories does jumping up and down burn,oos,calories,0.928
+fill up my water bottle for the gym,fill up my water bottle for the gym,oos,smart_home,0.338
+what should i take for nausea,what should i take for nausea,oos,travel_suggestion,0.545
+what is a good home remedy for a rash,what is a good home remedy for a rash,oos,meal_suggestion,0.422
+can you order some ointment for me,can you order some ointment for me,oos,order,0.959
+how do i get rid of an itchy rash,how do i get rid of an itchy rash,oos,recipe,0.224
+forward the text i just got from henry to giselle,forward the text i just got from henry to giselle,oos,text,0.975
+please read the text message i just received,please read the text message i just received,oos,text,0.973
+save my text on my laptop hard drive,save my text on my laptop hard drive,oos,text,0.974
+are there any messages,are there any messages,oos,maybe,0.233
+what's that smell,what s that smell,oos,goodbye,0.178
+get me a list of the best savings account rates right now,get me a list of the best savings account rates right now,oos,balance,0.41
+what should i do if i saw a cockroach in my house,what should i do if i saw a cockroach in my house,oos,restaurant_suggestion,0.542
+please answer the phone and put it on speaker on the tv,please answer the phone and put it on speaker on the tv,oos,sync_device,0.462
+can you tell me who's calling me,can you tell me who s calling me,oos,user_name,0.759
+answer the phone,answer the phone,oos,find_phone,0.721
+ignore call,ignore call,oos,make_call,0.965
+what's the first thing you should do to wash your car,what s the first thing you should do to wash your car,oos,last_maintenance,0.269
+what supplies do i need to clean my car,what supplies do i need to clean my car,oos,gas_type,0.282
+what person is the heaviest ever recorded,what person is the heaviest ever recorded,oos,what_song,0.424
+can you look at what average reviews say about the new windows phone on amazon for me,can you look at what average reviews say about the new windows phone on amazon for me,oos,restaurant_reviews,0.918
+tell me a summary of reviews that oakley frogskins get on amazon,tell me a summary of reviews that oakley frogskins get on amazon,oos,restaurant_reviews,0.976
+show me a tabulation of reviews for lcd tv's on amazon,show me a tabulation of reviews for lcd tv s on amazon,oos,restaurant_reviews,0.978
+what does it mean to join the occult,what does it mean to join the occult,oos,definition,0.945
+i need to find a new babysitter,i need to find a new babysitter,oos,order,0.318
+make me a map of all earthquake hotspots in the continental us,make me a map of all earthquake hotspots in the continental us,oos,weather,0.519
+what is appropriate to spend on a bouquet of flowers for mother's day,what is appropriate to spend on a bouquet of flowers for mother s day,oos,spending_history,0.169
+look up the average temperature changes over the last 30 years for my area,look up the average temperature changes over the last 30 years for my area,oos,weather,0.784
+can you book me a tee time at cantigny at 2 pm on saturday,can you book me a tee time at cantigny at 2 pm on saturday,oos,restaurant_reservation,0.715
+how do i turn up the resolution that i am taking pictures in on my camera phone,how do i turn up the resolution that i am taking pictures in on my camera phone,oos,find_phone,0.835
+print out the photos i took today,print out the photos i took today,oos,todo_list,0.207
+can you find me sheet music for the beatles white album online,can you find me sheet music for the beatles white album online,oos,play_music,0.713
+can i get a starter course for the trumpet,can i get a starter course for the trumpet,oos,jump_start,0.164
+show me the new york times most popular book list for this week,show me the new york times most popular book list for this week,oos,todo_list,0.845
+"order the new book titled ""ghost work""",order the new book titled ghost work,oos,order_status,0.552
+please check if god is really living in a small apartment in brussels,please check if god is really living in a small apartment in brussels,oos,book_hotel,0.63
+do we actually have a soul,do we actually have a soul,oos,meaning_of_life,0.146
+where can i find cheap rental skis nearby,where can i find cheap rental skis nearby,oos,car_rental,0.869
+check the nanny cam and send the feed to my phone,check the nanny cam and send the feed to my phone,oos,sync_device,0.879
+how much should i tip on this bill,how much should i tip on this bill,oos,bill_balance,0.968
+send me live feed of the pre-game prediction show on my phone,send me live feed of the pre game prediction show on my phone,oos,sync_device,0.505
+what's my budget for today's shopping trip,what s my budget for today s shopping trip,oos,spending_history,0.174
+can you find my car in the parking lot,can you find my car in the parking lot,oos,car_rental,0.189
+what's the best hand to have in texas hold em,what s the best hand to have in texas hold em,oos,translate,0.469
+fold my hand,fold my hand,oos,smart_home,0.893
+what time did i put in my first load of laundry,what time did i put in my first load of laundry,oos,spending_history,0.509
+how much time is left on my laundry,how much time is left on my laundry,oos,time,0.535
+power up my generator,power up my generator,oos,gas,0.267
+find instructions on how to play taboo,find instructions on how to play taboo,oos,play_music,0.753
+tell me how much energy i have consumed so far this year,tell me how much energy i have consumed so far this year,oos,gas,0.269
+how many kilowatts have i used this month,how many kilowatts have i used this month,oos,pto_used,0.845
+what's my current electric bill,what s my current electric bill,oos,bill_balance,0.963
+can you locate the television remote,can you locate the television remote,oos,current_location,0.666
+where did i last place my remote,where did i last place my remote,oos,where_are_you_from,0.425
+do you know where the remote is,do you know where the remote is,oos,current_location,0.768
+have you seen the remote,have you seen the remote,oos,current_location,0.318
+please ping the rfid in my wallet and tell me where it's at right now,please ping the rfid in my wallet and tell me where it s at right now,oos,pin_change,0.237
+can you detect where i placed my wallet,can you detect where i placed my wallet,oos,current_location,0.25
+give me my wallet location,give me my wallet location,oos,current_location,0.508
+find my wallet,find my wallet,oos,smart_home,0.137
+can you give me the gps location of harvey,can you give me the gps location of harvey,oos,share_location,0.689
+locate jenny at her present position,locate jenny at her present position,oos,share_location,0.739
+let me know where jim is right now,let me know where jim is right now,oos,change_user_name,0.209
+"bulaşık makinem su boşaltmıyor, model DW-6534",bulaşık makinem su boşaltmıyor model modelcode,appliance_fault,appliance_spare_parts,0.458
+buzdolabından garip bir uğultu sesi geliyor,buzdolabının garip bir uğultu sesi geliyor,appliance_fault,appliance_spare_parts,0.854
+cihazım arızalandı teknik servis istiyorum,cihazım arızalandı teknik servis istiyorum,appliance_fault,appliance_installation,0.97
+the washing machine door stays locked after the wash finishes,the washing machine door stays locked after the wash finishes,appliance_fault,appliance_spare_parts,0.75
+buzdolabım soğutmuyor içindeki yiyecekler bozuldu,buzdolabım soğutmuyor içindeki yiyecekler bozuldu,appliance_fault,appliance_spare_parts,0.639
+klima çalışırken iç üniteden su damlatıyor,klima çalışırken iç üniteden su damlatıyor,appliance_fault,appliance_spare_parts,0.536
+I need someone to set up my new appliance for first use,i need someone to set up my new appliance for first use,appliance_installation,application_status,0.233
+çamaşır makinemi kim monte edecek,çamaşır makinesi kim monte edecek,appliance_installation,appliance_spare_parts,0.713
+I bought a new water dispenser and need help with initial setup,i bought a new water dispenser and need help with initial setup,appliance_installation,appliance_spare_parts,0.861
+the AC outdoor unit will go on the balcony when can you do a site check,the ac outdoor unit will go on the balcony when can you do a site check,appliance_installation,oos,0.345
+can you send a team to wall mount the TV I bought online,can you send a team to wall mount the tv i bought online,appliance_installation,oos,0.711
+I want to stack my new dryer on top of the washing machine,i want to stack my new dryer on top of the washing machine,appliance_installation,appliance_spare_parts,0.929
+"I lost my air conditioner remote, can I buy another",i lost my air conditioner remote can i buy another,appliance_spare_parts,gas_type,0.172
+the item I received is defective and I want a one-to-one replacement,the item i received is defective and i want a one to one replacement,appliance_warranty,report_lost_card,0.121
+online mağazadan aldığım ürünü kutusunu açmadan iade etmek istiyorum,online mağazadan aldığım ürünü kutusunu açmadan iade etmek istiyorum,appliance_warranty,appliance_installation,0.471
