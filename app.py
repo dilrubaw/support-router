@@ -1,7 +1,3 @@
-"""Müşteri Destek Mesajı Yönlendirici – Gradio uygulaması.
-Ana karar modeli: kuantize (INT8) DistilmBERT öğrenci. Diğer 4 model yan yana gösterilir.
-Çalıştır: python app.py          (Colab'da otomatik public link verir)
-"""
 import json
 import os
 import sys
@@ -13,12 +9,12 @@ import pandas as pd
 import config
 from src.eliza import eliza_reply
 from src.preprocess import Preprocessor
-from src.teams import SMALLTALK_TEAM, route
+from src.teams import HUMAN_TEAM, SMALLTALK_TEAM, route
 
 MAIN_MODEL = "student_int8"
 
 if not (config.ARTIFACTS / "student_int8.pt").exists():
-    print("Model dosyaları bulunamadı, Hugging Face Hub'dan indiriliyor...")
+    print("Model files not found, downloading from Hugging Face Hub...")
     from download_models import download
     download()
 
@@ -28,12 +24,12 @@ LABELS = json.loads((config.ARTIFACTS / "labels.json").read_text())
 THRESHOLDS = json.loads((config.ARTIFACTS / "thresholds.json").read_text())
 PRE = Preprocessor(json.loads((config.ARTIFACTS / "vocab.json").read_text()))
 PREDICTORS = load_predictors()
-print("Tüm modeller yüklendi (CPU).")
+print("All models loaded (CPU).")
 
 
 def analyze(message):
     if not message or not message.strip():
-        return "Lütfen bir mesaj yazın.", pd.DataFrame()
+        return "Please type a message.", pd.DataFrame()
     p = PRE.process(message)
 
     rows, main = [], None
@@ -44,8 +40,8 @@ def analyze(message):
         idx = int(probs.argmax())
         intent, conf = LABELS[idx], float(probs[idx])
         team = route(intent, conf, THRESHOLDS[key])
-        rows.append({"Model": pred.name, "Niyet (intent)": intent, "Güven": round(conf, 3),
-                     "Yönlendirilen ekip": team, "Süre (ms)": round(ms, 1)})
+        rows.append({"Model": pred.name, "Intent": intent, "Confidence": round(conf, 3),
+                     "Routed team": team, "Time (ms)": round(ms, 1)})
         if key == MAIN_MODEL:
             main = (intent, conf, team, ms)
 
@@ -56,20 +52,20 @@ def analyze(message):
 
     corr = ", ".join(f"{a} → {b}" for a, b in p["corrections"]) or "—"
     codes = ", ".join(p["model_codes"]) or "—"
-    md = f"""## ➜ Yönlendirilen ekip: **{team}**
-**Ana model:** DistilmBERT öğrenci, **INT8 kuantize** (CPU) · niyet `{intent}` · güven **{conf:.2f}** (eşik {THRESHOLDS[MAIN_MODEL]:.2f}) · {ms:.1f} ms
+    md = f"""## ➜ Routed to: **{team}**
+**Main model:** DistilmBERT student, **INT8 quantized** (CPU) · intent `{intent}` · confidence **{conf:.2f}** (threshold {THRESHOLDS[MAIN_MODEL]:.2f}) · {ms:.1f} ms
 
-| Ön işleme adımı | Sonuç |
+| Preprocessing step | Result |
 |---|---|
-| Normalize metin (regex) | `{p['normalized']}` |
-| Çıkarılan model kodu | {codes} |
-| Yazım düzeltme (edit distance) | {corr} |
-| Modele giden metin | `{p['clean']}` |
+| Normalized text (regex) | `{p['normalized']}` |
+| Extracted model code | {codes} |
+| Spelling correction (edit distance) | {corr} |
+| Text sent to the models | `{p['clean']}` |
 """
     if reply:
-        md += f"\n**🤖 Kural tabanlı (ELIZA) cevap:** {reply}\n"
-    elif team.startswith("İnsan"):
-        md += "\n⚠️ Güven düşük veya kapsam dışı (out-of-scope) → mesaj bir insan temsilciye aktarıldı.\n"
+        md += f"\n** Rule-based (ELIZA) reply:** {reply}\n"
+    elif team == HUMAN_TEAM:
+        md += "\n Low confidence or out-of-scope → the message is handed over to a human agent.\n"
     return md, pd.DataFrame(rows)
 
 
@@ -83,17 +79,19 @@ EXAMPLES = [
     "can you recommend a good movie for tonight",
     "merhaba",
     "i feel frustrated today",
-    "teşekkürler",
+    "thank you",
 ]
 
-with gr.Blocks(title="Destek Mesajı Yönlendirici") as demo:
-    gr.Markdown("# 🧺 Beyaz Eşya Müşteri Destek Yönlendirici (TR / EN)\n"
-                "Mesajı yazın → normalize edilir → niyet tahmin edilir → doğru ekibe yönlendirilir.")
+with gr.Blocks(title="Support Ticket Router") as demo:
+    gr.Markdown("# Home Appliance Customer Support Router (TR / EN)\n"
+                "Type a message → it is normalized → the intent is predicted → "
+                "it is routed to the right team.")
     with gr.Row():
-        inp = gr.Textbox(label="Müşteri mesajı", lines=2, placeholder="ör. fırınım ısınmıyor")
-    btn = gr.Button("Yönlendir", variant="primary")
+        inp = gr.Textbox(label="Customer message", lines=2,
+                         placeholder="e.g. my oven is not heating / fırınım ısınmıyor")
+    btn = gr.Button("Route", variant="primary")
     out_md = gr.Markdown()
-    gr.Markdown("### 5 modelin tahmini yan yana")
+    gr.Markdown("### Predictions of all 5 models side by side")
     out_df = gr.Dataframe(wrap=True)
     gr.Examples(EXAMPLES, inputs=inp)
     btn.click(analyze, inputs=inp, outputs=[out_md, out_df])
