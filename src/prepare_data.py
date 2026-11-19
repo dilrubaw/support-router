@@ -1,8 +1,3 @@
-"""Adım 1: Veriyi indir, birleştir, böl, ön işle.
-CLINC150 'plus' (train/val/test + out-of-scope) + kendi yazdığımız 120 TR/EN beyaz eşya mesajı.
-Çıktı: data/processed/{train,val,test}.csv, artifacts/labels.json, artifacts/vocab.json
-Çalıştır: python -m src.prepare_data
-"""
 import json
 import sys
 from pathlib import Path
@@ -11,8 +6,8 @@ import numpy as np
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-import config  # noqa: E402
-from src.preprocess import Preprocessor, normalize, tokenize  # noqa: E402
+import config 
+from src.preprocess import Preprocessor, normalize, tokenize 
 
 
 def load_clinc():
@@ -23,7 +18,7 @@ def load_clinc():
         try:
             ds = load_dataset(name="plus", **kwargs)
             break
-        except Exception as e:  # farklı datasets sürümleri için yedek yollar
+        except Exception as e:  
             print("Yükleme denemesi başarısız:", kwargs, e)
             last_err = e
     if ds is None:
@@ -70,7 +65,6 @@ def main():
     assert config.OOS_LABEL in labels
     label2id = {l: i for i, l in enumerate(labels)}
 
-    # Yazım düzeltici için "bilinen kelimeler" sözlüğü sadece eğitim setinden çıkarılır
     vocab = sorted({t for txt in splits["train"]["text"] for t in tokenize(normalize(txt)[0])})
     pre = Preprocessor(vocab)
 
