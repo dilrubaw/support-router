@@ -119,3 +119,83 @@ order a detergent drawer for the washing machine,appliance_spare_parts,en
 when will my original spare parts order arrive,appliance_spare_parts,en
 "the oven light is out, where can I buy the bulb",appliance_spare_parts,en
 I want to buy a lint filter for my dryer,appliance_spare_parts,en
+buzdolabının buzluğu çok fazla karlanma yapıyor,appliance_fault,tr
+çamaşır makinesi su almıyor ve ekranda F05 yazıyor,appliance_fault,tr
+bulaşık makinesi deterjan kapağını program sırasında açmıyor,appliance_fault,tr
+klima çalışırken iç üniteden su damlatıyor,appliance_fault,tr
+fırının fanı dönmüyor ve yemeklerin altı yanıyor,appliance_fault,tr
+elektrikli süpürge eskisi gibi çekmiyor motoru çok ısınıyor,appliance_fault,tr
+derin dondurucunun alarm ışığı sürekli yanıp sönüyor,appliance_fault,tr
+kombi sıcak su vermiyor petekler de ısınmıyor,appliance_fault,tr
+çamaşır makinesinin kapağı yıkama bittikten sonra kilitli kaldı açılmıyor,appliance_fault,tr
+kurutma makinesi çalışırken yanık kokusu geliyor,appliance_fault,tr
+my freezer is building up way too much frost,appliance_fault,en
+the washing machine is not taking in water and shows F05,appliance_fault,en
+the dishwasher detergent dispenser does not open during the cycle,appliance_fault,en
+water is dripping from the indoor unit of my air conditioner,appliance_fault,en
+the oven fan is not spinning and food burns at the bottom,appliance_fault,en
+my vacuum cleaner lost suction and the motor overheats,appliance_fault,en
+the alarm light on my deep freezer keeps flashing,appliance_fault,en
+the boiler is not providing hot water or heating the radiators,appliance_fault,en
+the washing machine door stays locked after the wash finishes,appliance_fault,en
+there is a burning smell coming from the tumble dryer,appliance_fault,en
+internetten aldığım televizyonun duvar montajı için ekip yönlendirir misiniz,appliance_installation,tr
+klima dış ünitesi balkona takılacak keşif için ne zaman gelebilirsiniz,appliance_installation,tr
+yeni çamaşır kurutma makinesini çamaşır makinesinin üzerine sabitlemek istiyorum,appliance_installation,tr
+bulaşık makinesi su giriş hortumu bağlantısı için yetkili servis çağıracağım,appliance_installation,tr
+doğalgazlı ocağımın tüplü sisteme dönüşümü ve kurulumu için randevu istiyorum,appliance_installation,tr
+aldığım derin dondurucu kutusunda duruyor açılışını servis mi yapmalı,appliance_installation,tr
+ankastre set kurulumu için mutfak dolabı ölçüleri uygun mu kontrol eder misiniz,appliance_installation,tr
+hafta sonu kurulum hizmeti veriyor musunuz,appliance_installation,tr
+kurulum randevum saat kaçta gerçekleşecek bilgi alabilir miyim,appliance_installation,tr
+yeni su sebili aldım ilk kurulum ve temizlik işlemi için destek istiyorum,appliance_installation,tr
+can you send a team to wall mount the TV I bought online,appliance_installation,en
+the AC outdoor unit will go on the balcony when can you do a site check,appliance_installation,en
+I want to stack my new dryer on top of the washing machine,appliance_installation,en
+I need an authorized technician to connect the dishwasher water inlet hose,appliance_installation,en
+I want to book an appointment to convert and install my gas stove for LPG,appliance_installation,en
+my new deep freezer is still in the box should a technician unbox it,appliance_installation,en
+can you check if my kitchen cabinet dimensions fit the built-in set installation,appliance_installation,en
+do you offer appliance installation services on weekends,appliance_installation,en
+could you let me know what time my installation appointment is scheduled for,appliance_installation,en
+I bought a new water dispenser and need help with initial setup,appliance_installation,en
+online mağazadan aldığım ürünü kutusunu açmadan iade etmek istiyorum,appliance_warranty,tr
+yetkili servis dışında tamir görürse cihazım garanti kapsamından çıkar mı,appliance_warranty,tr
+kullanıcı hatası denilerek benden ücret talep edildi itiraz etmek istiyorum,appliance_warranty,tr
+uzatılmış garanti poliçemi e-posta olarak tekrar gönderebilir misiniz,appliance_warranty,tr
+aldığım ürün ayıplı çıktı birebir değişim hakkımı kullanmak istiyorum,appliance_warranty,tr
+garanti süresi cihaz teslim edildiği gün mü yoksa fatura tarihinde mi başlar,appliance_warranty,tr
+kargo hasarlı teslim edilen buzdolabını iade süreci nasıl işliyor,appliance_warranty,tr
+ek garanti kapsamına hangi parçalar ve arızalar dahil ediliyor,appliance_warranty,tr
+ürün iadesi onaylandıktan sonra ücret hesabıma kaç günde yatar,appliance_warranty,tr
+ikinci el aldığım cihazın kalan garanti süresini devralabilir miyim,appliance_warranty,tr
+I want to return the appliance I bought online without opening the box,appliance_warranty,en
+will my appliance void its warranty if repaired outside authorized service,appliance_warranty,en
+I was charged a fee for user error and I want to dispute this,appliance_warranty,en
+can you resend my extended warranty policy via email,appliance_warranty,en
+the item I received is defective and I want a one-to-one replacement,appliance_warranty,en
+does the warranty start on the delivery date or the invoice date,appliance_warranty,en
+how does the return process work for a fridge damaged during shipping,appliance_warranty,en
+which parts and breakdowns are covered under the extended warranty,appliance_warranty,en
+how many days does it take for the refund to reflect after return approval,appliance_warranty,en
+can I transfer the remaining warranty on a second-hand appliance I bought,appliance_warranty,en
+bulaşık makinesinin alt pervanesi kırıldı yenisini temin edebilir miyim,appliance_spare_parts,tr
+buzdolabı sebzelik çekmecesi çatladı yedek parça kodu nedir,appliance_spare_parts,tr
+süpürge hortumu yırtıldı model numarasına göre sipariş vermek istiyorum,appliance_spare_parts,tr
+fırın tepsisi ve ızgara teli ayrı olarak satılıyor mu,appliance_spare_parts,tr
+çamaşır makinesi tahliye pompası kapağı kayboldu nereden bulabilirim,appliance_spare_parts,tr
+kahve makinesi su haznesi kırıldı orijinal parça stokta var mı,appliance_spare_parts,tr
+klima karbon filtresi değişim zamanı geldi yenisini almak istiyorum,appliance_spare_parts,tr
+blender bıçağı köreldi yedek başlık sipariş etmek istiyorum,appliance_spare_parts,tr
+davlumbaz bacası için alüminyum boru ve bağlantı aparatı satıyor musunuz,appliance_spare_parts,tr
+ütü tabanı çizildi yedek parça olarak değişimi mümkün mü,appliance_spare_parts,tr
+the lower spray arm of my dishwasher broke can I get a new one,appliance_spare_parts,en
+my fridge crisper drawer cracked what is the spare part code,appliance_spare_parts,en
+the vacuum hose tore and I want to order one by model number,appliance_spare_parts,en
+are the oven baking tray and wire rack sold separately,appliance_spare_parts,en
+I lost the washing machine drain pump cover where can I find one,appliance_spare_parts,en
+my coffee maker water tank broke is the original part in stock,appliance_spare_parts,en
+it is time to replace the AC carbon filter and I want to buy a new one,appliance_spare_parts,en
+the blender blade went dull I want to order a replacement attachment,appliance_spare_parts,en
+do you sell aluminum ducting and connectors for cooker hoods,appliance_spare_parts,en
+the iron soleplate got scratched can it be replaced as a spare part,appliance_spare_parts,en
