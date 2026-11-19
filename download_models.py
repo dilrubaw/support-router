@@ -1,4 +1,3 @@
-"""Eğitilmiş ağırlıkları Hugging Face Hub'dan artifacts/ klasörüne indirir."""
 from huggingface_hub import snapshot_download
 
 import config
