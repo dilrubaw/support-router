@@ -1,5 +1,3 @@
-"""Alan B (Klasik NLP): ELIZA tarzı kural tabanlı cevaplar (selamlaşma / sohbet).
-Normalize edilmiş (küçük harf, noktalamasız) metin üzerinde çalışır."""
 import re
 
 REFLECTIONS = {
