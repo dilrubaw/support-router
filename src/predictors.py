@@ -1,4 +1,3 @@
-"""5 modeli aynı arayüzle yükler: predict_proba(temiz_metin_listesi) -> (n, sınıf) olasılıklar."""
 import os
 from pathlib import Path
 
@@ -14,7 +13,7 @@ from src.quantize import build_quantized
 
 
 class TfidfPredictor:
-    key, name = "tfidf", "1) TF-IDF + LogReg (klasik baseline)"
+    key, name = "tfidf", "1) TF-IDF + LogReg (classical baseline)"
     precision = "FP64 (sklearn)"
 
     def __init__(self):
@@ -69,7 +68,7 @@ class HFPredictor:
         self.model.eval()
 
     def to(self, device):
-        if not self.quantized:  # kuantize model sadece CPU'da çalışır
+        if not self.quantized:  
             self.device = torch.device(device)
             self.model.to(self.device)
         return self
@@ -88,10 +87,10 @@ def load_predictors(keys=None):
         "ffnn": FFNNPredictor,
         "teacher": lambda: HFPredictor("teacher", "3) mBERT fine-tuned (Transformer, FP32)",
                                        a / "teacher"),
-        "student": lambda: HFPredictor("student", "4a) DistilmBERT öğrenci (distilled, FP32)",
+        "student": lambda: HFPredictor("student", "4a) DistilmBERT student (distilled, FP32)",
                                        a / "student"),
         "student_int8": lambda: HFPredictor("student_int8",
-                                            "4b) DistilmBERT öğrenci INT8 (quantized) ★",
+                                            "4b) DistilmBERT student INT8 (quantized) ★",
                                             a / "student", quantized=True),
     }
     keys = keys or list(makers)
