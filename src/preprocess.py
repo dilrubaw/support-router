@@ -1,9 +1,6 @@
-"""Alan B (Klasik NLP): regex normalizasyonu, model kodu çıkarma, tokenization,
-minimum edit distance ile ürün adı düzeltme."""
 import re
 import unicodedata
 
-# Ürün adları sözlüğü (edit distance ile yanlış yazımlar buna düzeltilir)
 PRODUCT_LEXICON = [
     # Türkçe
     "bulaşık", "makine", "makinesi", "makinem", "makinemiz", "makineyi", "çamaşır", "kurutma",
@@ -17,10 +14,9 @@ PRODUCT_LEXICON = [
 ]
 LEXICON_SET = set(PRODUCT_LEXICON)
 
-# Model kodu: 2-4 harf + isteğe bağlı tire + 3-6 rakam  (DW-6534, wm8000, RF-12345)
 MODEL_CODE_RE = re.compile(r"\b([A-Za-z]{2,4})-?(\d{3,6})\b")
 URL_RE = re.compile(r"(https?://\S+|www\.\S+|\S+@\S+\.\S+)")
-REPEAT_RE = re.compile(r"(.)\1{2,}")          # "çokkkk" -> "çokk"
+REPEAT_RE = re.compile(r"(.)\1{2,}")          
 PUNCT_RE = re.compile(r"[^\w\s]|_")
 SPACE_RE = re.compile(r"\s+")
 TOKEN_RE = re.compile(r"[^\W_]+")
@@ -38,7 +34,7 @@ def normalize(text):
     text = unicodedata.normalize("NFC", str(text))
     text = URL_RE.sub(" ", text)
     text, codes = extract_model_codes(text)
-    text = text.replace("İ", "i").lower()      # Türkçe büyük İ için
+    text = text.replace("İ", "i").lower()     
     text = REPEAT_RE.sub(r"\1\1", text)
     text = PUNCT_RE.sub(" ", text)
     text = SPACE_RE.sub(" ", text).strip()
@@ -57,15 +53,14 @@ def min_edit_distance(a, b):
         cur = [i] + [0] * m
         for j in range(1, m + 1):
             sub = 0 if a[i - 1] == b[j - 1] else 1
-            cur[j] = min(prev[j] + 1,        # silme
-                         cur[j - 1] + 1,     # ekleme
-                         prev[j - 1] + sub)  # değiştirme
+            cur[j] = min(prev[j] + 1,       
+                         cur[j - 1] + 1,     
+                         prev[j - 1] + sub)  
         prev = cur
     return prev[m]
 
 
 class Preprocessor:
-    """normalize -> model kodu çıkar -> tokenize -> ürün adı yazım düzeltme."""
 
     def __init__(self, known_vocab=None):
         self.known = set(known_vocab or [])
