@@ -1,6 +1,3 @@
-"""Model 2 – Sinir ağı (Alan A): ortalama word2vec -> FFNN, SGD + backpropagation.
-Çalıştır: python -m src.train_ffnn
-"""
 import sys
 from pathlib import Path
 
@@ -9,9 +6,9 @@ import torch
 import torch.nn.functional as F
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-import config  # noqa: E402
-from src.common import load_labels, load_split  # noqa: E402
-from src.ffnn_model import FFNN, average_embeddings  # noqa: E402
+import config
+from src.common import load_labels, load_split  
+from src.ffnn_model import FFNN, average_embeddings  
 
 HIDDEN, DROPOUT, EPOCHS, BATCH, LR, MOMENTUM = 256, 0.3, 60, 64, 0.05, 0.9
 
@@ -27,7 +24,7 @@ def main():
     train, val = load_split("train"), load_split("val")
     Xtr = average_embeddings(train["clean"], w2i, vectors)
     Xva = average_embeddings(val["clean"], w2i, vectors)
-    mean, std = Xtr.mean(0), Xtr.std(0) + 1e-6           # standardizasyon
+    mean, std = Xtr.mean(0), Xtr.std(0) + 1e-6           
     Xtr, Xva = (Xtr - mean) / std, (Xva - mean) / std
     ytr = train["label_id"].to_numpy()
     yva = val["label_id"].to_numpy()
@@ -45,8 +42,8 @@ def main():
             idx = torch.from_numpy(perm[i:i + BATCH])
             loss = F.cross_entropy(model(Xtr_t[idx]), ytr_t[idx])
             opt.zero_grad()
-            loss.backward()        # backpropagation
-            opt.step()             # SGD güncellemesi
+            loss.backward()        
+            opt.step()             
         model.eval()
         with torch.no_grad():
             acc = (model(Xva_t).argmax(1).numpy() == yva).mean()
